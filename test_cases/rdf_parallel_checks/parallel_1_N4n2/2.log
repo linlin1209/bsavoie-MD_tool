@@ -1,0 +1,3 @@
+rdf_r_max specified at 0 or a value greater than half the possible maximum box distance. rdf_r_max now set at: 13.653455
+The following properties are found in lammpstrj file: fx fy fz mol y x z type id
+rdf.py completed successfully!

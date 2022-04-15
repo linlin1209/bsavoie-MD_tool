@@ -1,0 +1,2007 @@
+PROGRAM CALL: python rdf.py -traj ../ellipsoid/ellipsoid.lammpstrj -data ../ellipsoid/ellipsoid.data -types 1 3 -o ellipsoid_1_3 -excl no
+
+no
+Time taken to preprocess data: 259.200942993
+Reading lammps file ../ellipsoid/ellipsoid.lammpstrj
+On timestep 10005000...
+Time taken to read the data: 0.446288824081
+Time taken to calculate distances  between all bead pairs: 1.91433405876
+Time taken to store these distances for all valid bead pairs: 0.509452104568
+On timestep 10025000...
+Time taken to read the data: 0.258576869965
+Time taken to calculate distances  between all bead pairs: 1.97282481194
+Time taken to store these distances for all valid bead pairs: 0.529998064041
+On timestep 10045000...
+Time taken to read the data: 0.264199018478
+Time taken to calculate distances  between all bead pairs: 1.99708390236
+Time taken to store these distances for all valid bead pairs: 0.520635128021
+On timestep 10065000...
+Time taken to read the data: 0.268630027771
+Time taken to calculate distances  between all bead pairs: 2.00358009338
+Time taken to store these distances for all valid bead pairs: 0.518913030624
+On timestep 10085000...
+Time taken to read the data: 0.264633893967
+Time taken to calculate distances  between all bead pairs: 1.99640011787
+Time taken to store these distances for all valid bead pairs: 0.554515838623
+On timestep 10105000...
+Time taken to read the data: 0.265168190002
+Time taken to calculate distances  between all bead pairs: 2.01434588432
+Time taken to store these distances for all valid bead pairs: 0.523788928986
+On timestep 10125000...
+Time taken to read the data: 0.265625953674
+Time taken to calculate distances  between all bead pairs: 1.99994683266
+Time taken to store these distances for all valid bead pairs: 0.518095016479
+On timestep 10145000...
+Time taken to read the data: 0.261565923691
+Time taken to calculate distances  between all bead pairs: 1.9774980545
+Time taken to store these distances for all valid bead pairs: 0.524834871292
+On timestep 10165000...
+Time taken to read the data: 0.264276027679
+Time taken to calculate distances  between all bead pairs: 1.98314785957
+Time taken to store these distances for all valid bead pairs: 0.532083034515
+On timestep 10185000...
+Time taken to read the data: 0.27124786377
+Time taken to calculate distances  between all bead pairs: 1.9943652153
+Time taken to store these distances for all valid bead pairs: 0.525713205338
+On timestep 10205000...
+Time taken to read the data: 0.269606113434
+Time taken to calculate distances  between all bead pairs: 2.03142118454
+Time taken to store these distances for all valid bead pairs: 0.544074058533
+On timestep 10225000...
+Time taken to read the data: 0.27019405365
+Time taken to calculate distances  between all bead pairs: 2.00774097443
+Time taken to store these distances for all valid bead pairs: 0.544888019562
+On timestep 10245000...
+Time taken to read the data: 0.268161058426
+Time taken to calculate distances  between all bead pairs: 2.00495004654
+Time taken to store these distances for all valid bead pairs: 0.514899015427
+On timestep 10265000...
+Time taken to read the data: 0.26832985878
+Time taken to calculate distances  between all bead pairs: 1.99036097527
+Time taken to store these distances for all valid bead pairs: 0.529875993729
+On timestep 10285000...
+Time taken to read the data: 0.2689909935
+Time taken to calculate distances  between all bead pairs: 2.01419711113
+Time taken to store these distances for all valid bead pairs: 0.526184082031
+On timestep 10305000...
+Time taken to read the data: 0.263896942139
+Time taken to calculate distances  between all bead pairs: 2.05585289001
+Time taken to store these distances for all valid bead pairs: 0.567693948746
+On timestep 10325000...
+Time taken to read the data: 0.266093015671
+Time taken to calculate distances  between all bead pairs: 2.00573706627
+Time taken to store these distances for all valid bead pairs: 0.52516913414
+On timestep 10345000...
+Time taken to read the data: 0.263866901398
+Time taken to calculate distances  between all bead pairs: 1.98474287987
+Time taken to store these distances for all valid bead pairs: 0.538525104523
+On timestep 10365000...
+Time taken to read the data: 0.266596078873
+Time taken to calculate distances  between all bead pairs: 1.98891091347
+Time taken to store these distances for all valid bead pairs: 0.521178007126
+On timestep 10385000...
+Time taken to read the data: 0.262794971466
+Time taken to calculate distances  between all bead pairs: 1.99825811386
+Time taken to store these distances for all valid bead pairs: 0.528588056564
+On timestep 10405000...
+Time taken to read the data: 0.263679981232
+Time taken to calculate distances  between all bead pairs: 2.01057004929
+Time taken to store these distances for all valid bead pairs: 0.545808076859
+On timestep 10425000...
+Time taken to read the data: 0.268579006195
+Time taken to calculate distances  between all bead pairs: 1.98291492462
+Time taken to store these distances for all valid bead pairs: 0.535811901093
+On timestep 10445000...
+Time taken to read the data: 0.263231039047
+Time taken to calculate distances  between all bead pairs: 1.99283409119
+Time taken to store these distances for all valid bead pairs: 0.517567873001
+On timestep 10465000...
+Time taken to read the data: 0.264425039291
+Time taken to calculate distances  between all bead pairs: 1.99569010735
+Time taken to store these distances for all valid bead pairs: 0.53634595871
+On timestep 10485000...
+Time taken to read the data: 0.266330003738
+Time taken to calculate distances  between all bead pairs: 1.99106001854
+Time taken to store these distances for all valid bead pairs: 0.536997079849
+On timestep 10505000...
+Time taken to read the data: 0.263278961182
+Time taken to calculate distances  between all bead pairs: 2.01905012131
+Time taken to store these distances for all valid bead pairs: 0.525573968887
+On timestep 10525000...
+Time taken to read the data: 0.267383098602
+Time taken to calculate distances  between all bead pairs: 1.9871981144
+Time taken to store these distances for all valid bead pairs: 0.516227006912
+On timestep 10545000...
+Time taken to read the data: 0.265009880066
+Time taken to calculate distances  between all bead pairs: 1.99330091476
+Time taken to store these distances for all valid bead pairs: 0.528911113739
+On timestep 10565000...
+Time taken to read the data: 0.265386819839
+Time taken to calculate distances  between all bead pairs: 1.99035096169
+Time taken to store these distances for all valid bead pairs: 0.520294904709
+On timestep 10585000...
+Time taken to read the data: 0.273169994354
+Time taken to calculate distances  between all bead pairs: 1.99102497101
+Time taken to store these distances for all valid bead pairs: 0.563715934753
+On timestep 10605000...
+Time taken to read the data: 0.2691218853
+Time taken to calculate distances  between all bead pairs: 2.03322100639
+Time taken to store these distances for all valid bead pairs: 0.516578912735
+On timestep 10625000...
+Time taken to read the data: 0.266645908356
+Time taken to calculate distances  between all bead pairs: 1.99264979362
+Time taken to store these distances for all valid bead pairs: 0.531080007553
+On timestep 10645000...
+Time taken to read the data: 0.271667957306
+Time taken to calculate distances  between all bead pairs: 2.0113120079
+Time taken to store these distances for all valid bead pairs: 0.527997970581
+On timestep 10665000...
+Time taken to read the data: 0.260637998581
+Time taken to calculate distances  between all bead pairs: 1.98238396645
+Time taken to store these distances for all valid bead pairs: 0.53600692749
+On timestep 10685000...
+Time taken to read the data: 0.272437095642
+Time taken to calculate distances  between all bead pairs: 1.99544405937
+Time taken to store these distances for all valid bead pairs: 0.52526807785
+On timestep 10705000...
+Time taken to read the data: 0.264796972275
+Time taken to calculate distances  between all bead pairs: 2.01248812675
+Time taken to store these distances for all valid bead pairs: 0.551247835159
+On timestep 10725000...
+Time taken to read the data: 0.26231098175
+Time taken to calculate distances  between all bead pairs: 1.98419284821
+Time taken to store these distances for all valid bead pairs: 0.520358800888
+On timestep 10745000...
+Time taken to read the data: 0.260623931885
+Time taken to calculate distances  between all bead pairs: 1.9782948494
+Time taken to store these distances for all valid bead pairs: 0.519196987152
+On timestep 10765000...
+Time taken to read the data: 0.266258001328
+Time taken to calculate distances  between all bead pairs: 1.9885020256
+Time taken to store these distances for all valid bead pairs: 0.535778045654
+On timestep 10785000...
+Time taken to read the data: 0.264129161835
+Time taken to calculate distances  between all bead pairs: 1.98828315735
+Time taken to store these distances for all valid bead pairs: 0.529469013214
+On timestep 10805000...
+Time taken to read the data: 0.27658700943
+Time taken to calculate distances  between all bead pairs: 2.0266828537
+Time taken to store these distances for all valid bead pairs: 0.552645921707
+On timestep 10825000...
+Time taken to read the data: 0.273210048676
+Time taken to calculate distances  between all bead pairs: 1.99542212486
+Time taken to store these distances for all valid bead pairs: 0.523809909821
+On timestep 10845000...
+Time taken to read the data: 0.269854068756
+Time taken to calculate distances  between all bead pairs: 1.99520206451
+Time taken to store these distances for all valid bead pairs: 0.521863937378
+On timestep 10865000...
+Time taken to read the data: 0.268302202225
+Time taken to calculate distances  between all bead pairs: 1.99618601799
+Time taken to store these distances for all valid bead pairs: 0.542809963226
+On timestep 10885000...
+Time taken to read the data: 0.265591859818
+Time taken to calculate distances  between all bead pairs: 1.98647689819
+Time taken to store these distances for all valid bead pairs: 0.549610853195
+On timestep 10905000...
+Time taken to read the data: 0.26858496666
+Time taken to calculate distances  between all bead pairs: 2.03032803535
+Time taken to store these distances for all valid bead pairs: 0.53523015976
+On timestep 10925000...
+Time taken to read the data: 0.270707130432
+Time taken to calculate distances  between all bead pairs: 2.00089001656
+Time taken to store these distances for all valid bead pairs: 0.515060901642
+On timestep 10945000...
+Time taken to read the data: 0.262969970703
+Time taken to calculate distances  between all bead pairs: 1.99024200439
+Time taken to store these distances for all valid bead pairs: 0.527578830719
+On timestep 10965000...
+Time taken to read the data: 0.265764951706
+Time taken to calculate distances  between all bead pairs: 1.99680495262
+Time taken to store these distances for all valid bead pairs: 0.514199972153
+On timestep 10985000...
+Time taken to read the data: 0.2640209198
+Time taken to calculate distances  between all bead pairs: 1.98031997681
+Time taken to store these distances for all valid bead pairs: 0.525084972382
+On timestep 11005000...
+Time taken to read the data: 0.274038076401
+Time taken to calculate distances  between all bead pairs: 1.99296092987
+Time taken to store these distances for all valid bead pairs: 0.567443132401
+On timestep 11025000...
+Time taken to read the data: 0.271344184875
+Time taken to calculate distances  between all bead pairs: 2.02777910233
+Time taken to store these distances for all valid bead pairs: 0.537742853165
+On timestep 11045000...
+Time taken to read the data: 0.27282500267
+Time taken to calculate distances  between all bead pairs: 1.98873114586
+Time taken to store these distances for all valid bead pairs: 0.509649038315
+On timestep 11065000...
+Time taken to read the data: 0.263736009598
+Time taken to calculate distances  between all bead pairs: 1.99746394157
+Time taken to store these distances for all valid bead pairs: 0.528640031815
+On timestep 11085000...
+Time taken to read the data: 0.267115116119
+Time taken to calculate distances  between all bead pairs: 1.99724006653
+Time taken to store these distances for all valid bead pairs: 0.522947072983
+On timestep 11105000...
+Time taken to read the data: 0.264060974121
+Time taken to calculate distances  between all bead pairs: 2.00255990028
+Time taken to store these distances for all valid bead pairs: 0.557190179825
+On timestep 11125000...
+Time taken to read the data: 0.269830942154
+Time taken to calculate distances  between all bead pairs: 2.03705883026
+Time taken to store these distances for all valid bead pairs: 0.520016908646
+On timestep 11145000...
+Time taken to read the data: 0.26893901825
+Time taken to calculate distances  between all bead pairs: 1.98619699478
+Time taken to store these distances for all valid bead pairs: 0.523925065994
+On timestep 11165000...
+Time taken to read the data: 0.267460107803
+Time taken to calculate distances  between all bead pairs: 1.98235797882
+Time taken to store these distances for all valid bead pairs: 0.519145011902
+On timestep 11185000...
+Time taken to read the data: 0.263620138168
+Time taken to calculate distances  between all bead pairs: 1.98168897629
+Time taken to store these distances for all valid bead pairs: 0.54397892952
+On timestep 11205000...
+Time taken to read the data: 0.269380807877
+Time taken to calculate distances  between all bead pairs: 1.99788284302
+Time taken to store these distances for all valid bead pairs: 0.521836996078
+On timestep 11225000...
+Time taken to read the data: 0.268413066864
+Time taken to calculate distances  between all bead pairs: 2.03580093384
+Time taken to store these distances for all valid bead pairs: 0.563006877899
+On timestep 11245000...
+Time taken to read the data: 0.274015903473
+Time taken to calculate distances  between all bead pairs: 1.99892807007
+Time taken to store these distances for all valid bead pairs: 0.522783994675
+On timestep 11265000...
+Time taken to read the data: 0.266200065613
+Time taken to calculate distances  between all bead pairs: 2.00036120415
+Time taken to store these distances for all valid bead pairs: 0.52360701561
+On timestep 11285000...
+Time taken to read the data: 0.268098115921
+Time taken to calculate distances  between all bead pairs: 2.01504206657
+Time taken to store these distances for all valid bead pairs: 0.535612106323
+On timestep 11305000...
+Time taken to read the data: 0.26686000824
+Time taken to calculate distances  between all bead pairs: 2.00848197937
+Time taken to store these distances for all valid bead pairs: 0.555984020233
+On timestep 11325000...
+Time taken to read the data: 0.261950016022
+Time taken to calculate distances  between all bead pairs: 2.03271794319
+Time taken to store these distances for all valid bead pairs: 0.51816701889
+On timestep 11345000...
+Time taken to read the data: 0.263642072678
+Time taken to calculate distances  between all bead pairs: 1.98007082939
+Time taken to store these distances for all valid bead pairs: 0.528866052628
+On timestep 11365000...
+Time taken to read the data: 0.26527094841
+Time taken to calculate distances  between all bead pairs: 2.00173807144
+Time taken to store these distances for all valid bead pairs: 0.527293920517
+On timestep 11385000...
+Time taken to read the data: 0.270087957382
+Time taken to calculate distances  between all bead pairs: 2.00219917297
+Time taken to store these distances for all valid bead pairs: 0.552479982376
+On timestep 11405000...
+Time taken to read the data: 0.277224063873
+Time taken to calculate distances  between all bead pairs: 1.98914289474
+Time taken to store these distances for all valid bead pairs: 0.538135051727
+On timestep 11425000...
+Time taken to read the data: 0.267856836319
+Time taken to calculate distances  between all bead pairs: 2.01723098755
+Time taken to store these distances for all valid bead pairs: 0.552100896835
+On timestep 11445000...
+Time taken to read the data: 0.265892982483
+Time taken to calculate distances  between all bead pairs: 2.02056384087
+Time taken to store these distances for all valid bead pairs: 0.528220176697
+On timestep 11465000...
+Time taken to read the data: 0.262391805649
+Time taken to calculate distances  between all bead pairs: 1.99181199074
+Time taken to store these distances for all valid bead pairs: 0.546799898148
+On timestep 11485000...
+Time taken to read the data: 0.269613027573
+Time taken to calculate distances  between all bead pairs: 1.99273610115
+Time taken to store these distances for all valid bead pairs: 0.515033960342
+On timestep 11505000...
+Time taken to read the data: 0.265060901642
+Time taken to calculate distances  between all bead pairs: 2.01043581963
+Time taken to store these distances for all valid bead pairs: 0.539124011993
+On timestep 11525000...
+Time taken to read the data: 0.266645908356
+Time taken to calculate distances  between all bead pairs: 2.03976202011
+Time taken to store these distances for all valid bead pairs: 0.542927026749
+On timestep 11545000...
+Time taken to read the data: 0.269398927689
+Time taken to calculate distances  between all bead pairs: 1.98412084579
+Time taken to store these distances for all valid bead pairs: 0.542716026306
+On timestep 11565000...
+Time taken to read the data: 0.270752906799
+Time taken to calculate distances  between all bead pairs: 1.98660898209
+Time taken to store these distances for all valid bead pairs: 0.525857925415
+On timestep 11585000...
+Time taken to read the data: 0.264139890671
+Time taken to calculate distances  between all bead pairs: 1.98755383492
+Time taken to store these distances for all valid bead pairs: 0.542001008987
+On timestep 11605000...
+Time taken to read the data: 0.26362490654
+Time taken to calculate distances  between all bead pairs: 1.98841094971
+Time taken to store these distances for all valid bead pairs: 0.532070159912
+On timestep 11625000...
+Time taken to read the data: 0.269463062286
+Time taken to calculate distances  between all bead pairs: 2.01649403572
+Time taken to store these distances for all valid bead pairs: 0.546118021011
+On timestep 11645000...
+Time taken to read the data: 0.264865159988
+Time taken to calculate distances  between all bead pairs: 2.02807998657
+Time taken to store these distances for all valid bead pairs: 0.544814109802
+On timestep 11665000...
+Time taken to read the data: 0.264554977417
+Time taken to calculate distances  between all bead pairs: 1.98636579514
+Time taken to store these distances for all valid bead pairs: 0.540446043015
+On timestep 11685000...
+Time taken to read the data: 0.266657829285
+Time taken to calculate distances  between all bead pairs: 2.00168585777
+Time taken to store these distances for all valid bead pairs: 0.535426855087
+On timestep 11705000...
+Time taken to read the data: 0.265913963318
+Time taken to calculate distances  between all bead pairs: 1.98843312263
+Time taken to store these distances for all valid bead pairs: 0.551181077957
+On timestep 11725000...
+Time taken to read the data: 0.264010906219
+Time taken to calculate distances  between all bead pairs: 2.02589917183
+Time taken to store these distances for all valid bead pairs: 0.529843091965
+On timestep 11745000...
+Time taken to read the data: 0.268428087234
+Time taken to calculate distances  between all bead pairs: 1.98581695557
+Time taken to store these distances for all valid bead pairs: 0.522629976273
+On timestep 11765000...
+Time taken to read the data: 0.264373064041
+Time taken to calculate distances  between all bead pairs: 1.98186612129
+Time taken to store these distances for all valid bead pairs: 0.526067018509
+On timestep 11785000...
+Time taken to read the data: 0.26203918457
+Time taken to calculate distances  between all bead pairs: 1.99106502533
+Time taken to store these distances for all valid bead pairs: 0.526947021484
+On timestep 11805000...
+Time taken to read the data: 0.269989013672
+Time taken to calculate distances  between all bead pairs: 2.00306582451
+Time taken to store these distances for all valid bead pairs: 0.533901929855
+On timestep 11825000...
+Time taken to read the data: 0.262959003448
+Time taken to calculate distances  between all bead pairs: 2.06015396118
+Time taken to store these distances for all valid bead pairs: 0.557313919067
+On timestep 11845000...
+Time taken to read the data: 0.274441003799
+Time taken to calculate distances  between all bead pairs: 1.98832893372
+Time taken to store these distances for all valid bead pairs: 0.526565074921
+On timestep 11865000...
+Time taken to read the data: 0.264055967331
+Time taken to calculate distances  between all bead pairs: 1.99021792412
+Time taken to store these distances for all valid bead pairs: 0.529044151306
+On timestep 11885000...
+Time taken to read the data: 0.26769900322
+Time taken to calculate distances  between all bead pairs: 2.00715017319
+Time taken to store these distances for all valid bead pairs: 0.54346203804
+On timestep 11905000...
+Time taken to read the data: 0.261012077332
+Time taken to calculate distances  between all bead pairs: 2.00325894356
+Time taken to store these distances for all valid bead pairs: 0.548226118088
+On timestep 11925000...
+Time taken to read the data: 0.265146970749
+Time taken to calculate distances  between all bead pairs: 2.03864407539
+Time taken to store these distances for all valid bead pairs: 0.538980007172
+On timestep 11945000...
+Time taken to read the data: 0.27089715004
+Time taken to calculate distances  between all bead pairs: 1.99814200401
+Time taken to store these distances for all valid bead pairs: 0.554286003113
+On timestep 11965000...
+Time taken to read the data: 0.26428604126
+Time taken to calculate distances  between all bead pairs: 1.99771881104
+Time taken to store these distances for all valid bead pairs: 0.528253078461
+On timestep 11985000...
+Time taken to read the data: 0.266030073166
+Time taken to calculate distances  between all bead pairs: 1.99319601059
+Time taken to store these distances for all valid bead pairs: 0.542266845703
+On timestep 12005000...
+Time taken to read the data: 0.266369819641
+Time taken to calculate distances  between all bead pairs: 1.9881401062
+Time taken to store these distances for all valid bead pairs: 0.527979135513
+On timestep 12025000...
+Time taken to read the data: 0.264678955078
+Time taken to calculate distances  between all bead pairs: 2.0343580246
+Time taken to store these distances for all valid bead pairs: 0.542703151703
+On timestep 12045000...
+Time taken to read the data: 0.264701843262
+Time taken to calculate distances  between all bead pairs: 1.99372696877
+Time taken to store these distances for all valid bead pairs: 0.531280994415
+On timestep 12065000...
+Time taken to read the data: 0.260660886765
+Time taken to calculate distances  between all bead pairs: 1.99972295761
+Time taken to store these distances for all valid bead pairs: 0.54465508461
+On timestep 12085000...
+Time taken to read the data: 0.274384975433
+Time taken to calculate distances  between all bead pairs: 1.99537086487
+Time taken to store these distances for all valid bead pairs: 0.528438806534
+On timestep 12105000...
+Time taken to read the data: 0.268204927444
+Time taken to calculate distances  between all bead pairs: 1.99677205086
+Time taken to store these distances for all valid bead pairs: 0.524886131287
+On timestep 12125000...
+Time taken to read the data: 0.266947031021
+Time taken to calculate distances  between all bead pairs: 2.03684020042
+Time taken to store these distances for all valid bead pairs: 0.524981021881
+On timestep 12145000...
+Time taken to read the data: 0.285763025284
+Time taken to calculate distances  between all bead pairs: 1.98703598976
+Time taken to store these distances for all valid bead pairs: 0.533429145813
+On timestep 12165000...
+Time taken to read the data: 0.268239974976
+Time taken to calculate distances  between all bead pairs: 1.98528981209
+Time taken to store these distances for all valid bead pairs: 0.525233030319
+On timestep 12185000...
+Time taken to read the data: 0.267264127731
+Time taken to calculate distances  between all bead pairs: 1.99388408661
+Time taken to store these distances for all valid bead pairs: 0.529752016068
+On timestep 12205000...
+Time taken to read the data: 0.279577970505
+Time taken to calculate distances  between all bead pairs: 1.98302793503
+Time taken to store these distances for all valid bead pairs: 0.529671192169
+On timestep 12225000...
+Time taken to read the data: 0.265295028687
+Time taken to calculate distances  between all bead pairs: 2.02229499817
+Time taken to store these distances for all valid bead pairs: 0.527798175812
+On timestep 12245000...
+Time taken to read the data: 0.262933015823
+Time taken to calculate distances  between all bead pairs: 1.99873018265
+Time taken to store these distances for all valid bead pairs: 0.532011985779
+On timestep 12265000...
+Time taken to read the data: 0.264590978622
+Time taken to calculate distances  between all bead pairs: 1.9838988781
+Time taken to store these distances for all valid bead pairs: 0.547350883484
+On timestep 12285000...
+Time taken to read the data: 0.260548114777
+Time taken to calculate distances  between all bead pairs: 1.98659586906
+Time taken to store these distances for all valid bead pairs: 0.524104833603
+On timestep 12305000...
+Time taken to read the data: 0.26485490799
+Time taken to calculate distances  between all bead pairs: 1.99637818336
+Time taken to store these distances for all valid bead pairs: 0.533627033234
+On timestep 12325000...
+Time taken to read the data: 0.263483047485
+Time taken to calculate distances  between all bead pairs: 2.02161502838
+Time taken to store these distances for all valid bead pairs: 0.536993980408
+On timestep 12345000...
+Time taken to read the data: 0.267384052277
+Time taken to calculate distances  between all bead pairs: 1.98111200333
+Time taken to store these distances for all valid bead pairs: 0.548120975494
+On timestep 12365000...
+Time taken to read the data: 0.268712997437
+Time taken to calculate distances  between all bead pairs: 2.0178000927
+Time taken to store these distances for all valid bead pairs: 0.533871889114
+On timestep 12385000...
+Time taken to read the data: 0.265308856964
+Time taken to calculate distances  between all bead pairs: 1.98881793022
+Time taken to store these distances for all valid bead pairs: 0.552941083908
+On timestep 12405000...
+Time taken to read the data: 0.263397932053
+Time taken to calculate distances  between all bead pairs: 1.98956108093
+Time taken to store these distances for all valid bead pairs: 0.537472009659
+On timestep 12425000...
+Time taken to read the data: 0.264127016068
+Time taken to calculate distances  between all bead pairs: 2.01114201546
+Time taken to store these distances for all valid bead pairs: 0.537970066071
+On timestep 12445000...
+Time taken to read the data: 0.263066053391
+Time taken to calculate distances  between all bead pairs: 1.99481487274
+Time taken to store these distances for all valid bead pairs: 0.541435003281
+On timestep 12465000...
+Time taken to read the data: 0.262458086014
+Time taken to calculate distances  between all bead pairs: 1.99189710617
+Time taken to store these distances for all valid bead pairs: 0.548985004425
+On timestep 12485000...
+Time taken to read the data: 0.269148111343
+Time taken to calculate distances  between all bead pairs: 2.00947499275
+Time taken to store these distances for all valid bead pairs: 0.540833950043
+On timestep 12505000...
+Time taken to read the data: 0.265048027039
+Time taken to calculate distances  between all bead pairs: 2.00332188606
+Time taken to store these distances for all valid bead pairs: 0.539299964905
+On timestep 12525000...
+Time taken to read the data: 0.263178110123
+Time taken to calculate distances  between all bead pairs: 2.02072405815
+Time taken to store these distances for all valid bead pairs: 0.529762983322
+On timestep 12545000...
+Time taken to read the data: 0.266433954239
+Time taken to calculate distances  between all bead pairs: 1.98128581047
+Time taken to store these distances for all valid bead pairs: 0.540330886841
+On timestep 12565000...
+Time taken to read the data: 0.264281988144
+Time taken to calculate distances  between all bead pairs: 1.98930811882
+Time taken to store these distances for all valid bead pairs: 0.520173072815
+On timestep 12585000...
+Time taken to read the data: 0.261577129364
+Time taken to calculate distances  between all bead pairs: 1.98846101761
+Time taken to store these distances for all valid bead pairs: 0.533504009247
+On timestep 12605000...
+Time taken to read the data: 0.276026964188
+Time taken to calculate distances  between all bead pairs: 2.00872802734
+Time taken to store these distances for all valid bead pairs: 0.5339179039
+On timestep 12625000...
+Time taken to read the data: 0.260262966156
+Time taken to calculate distances  between all bead pairs: 2.0255408287
+Time taken to store these distances for all valid bead pairs: 0.529786109924
+On timestep 12645000...
+Time taken to read the data: 0.266713142395
+Time taken to calculate distances  between all bead pairs: 1.98857998848
+Time taken to store these distances for all valid bead pairs: 0.519328117371
+On timestep 12665000...
+Time taken to read the data: 0.263271093369
+Time taken to calculate distances  between all bead pairs: 1.98337507248
+Time taken to store these distances for all valid bead pairs: 0.533090114594
+On timestep 12685000...
+Time taken to read the data: 0.266361951828
+Time taken to calculate distances  between all bead pairs: 1.99053096771
+Time taken to store these distances for all valid bead pairs: 0.523200035095
+On timestep 12705000...
+Time taken to read the data: 0.267791986465
+Time taken to calculate distances  between all bead pairs: 1.98538184166
+Time taken to store these distances for all valid bead pairs: 0.535238981247
+On timestep 12725000...
+Time taken to read the data: 0.263833999634
+Time taken to calculate distances  between all bead pairs: 1.99187994003
+Time taken to store these distances for all valid bead pairs: 0.52364897728
+On timestep 12745000...
+Time taken to read the data: 0.261172056198
+Time taken to calculate distances  between all bead pairs: 1.99166822433
+Time taken to store these distances for all valid bead pairs: 0.541787862778
+On timestep 12765000...
+Time taken to read the data: 0.267517089844
+Time taken to calculate distances  between all bead pairs: 1.9924390316
+Time taken to store these distances for all valid bead pairs: 0.545684099197
+On timestep 12785000...
+Time taken to read the data: 0.272140979767
+Time taken to calculate distances  between all bead pairs: 1.99388504028
+Time taken to store these distances for all valid bead pairs: 0.538630008698
+On timestep 12805000...
+Time taken to read the data: 0.266714811325
+Time taken to calculate distances  between all bead pairs: 1.98179197311
+Time taken to store these distances for all valid bead pairs: 0.535099983215
+On timestep 12825000...
+Time taken to read the data: 0.263704061508
+Time taken to calculate distances  between all bead pairs: 2.00537204742
+Time taken to store these distances for all valid bead pairs: 0.535727977753
+On timestep 12845000...
+Time taken to read the data: 0.269952058792
+Time taken to calculate distances  between all bead pairs: 2.01340317726
+Time taken to store these distances for all valid bead pairs: 0.529370069504
+On timestep 12865000...
+Time taken to read the data: 0.263200044632
+Time taken to calculate distances  between all bead pairs: 1.98647212982
+Time taken to store these distances for all valid bead pairs: 0.545595169067
+On timestep 12885000...
+Time taken to read the data: 0.266949892044
+Time taken to calculate distances  between all bead pairs: 2.00182294846
+Time taken to store these distances for all valid bead pairs: 0.5315721035
+On timestep 12905000...
+Time taken to read the data: 0.271620988846
+Time taken to calculate distances  between all bead pairs: 1.99543499947
+Time taken to store these distances for all valid bead pairs: 0.532789945602
+On timestep 12925000...
+Time taken to read the data: 0.267127037048
+Time taken to calculate distances  between all bead pairs: 1.99597787857
+Time taken to store these distances for all valid bead pairs: 0.526136875153
+On timestep 12945000...
+Time taken to read the data: 0.26365685463
+Time taken to calculate distances  between all bead pairs: 1.98829579353
+Time taken to store these distances for all valid bead pairs: 0.535687923431
+On timestep 12965000...
+Time taken to read the data: 0.267256975174
+Time taken to calculate distances  between all bead pairs: 1.99137091637
+Time taken to store these distances for all valid bead pairs: 0.528086900711
+On timestep 12985000...
+Time taken to read the data: 0.267268180847
+Time taken to calculate distances  between all bead pairs: 2.00168204308
+Time taken to store these distances for all valid bead pairs: 0.542016029358
+On timestep 13005000...
+Time taken to read the data: 0.263986110687
+Time taken to calculate distances  between all bead pairs: 1.97856807709
+Time taken to store these distances for all valid bead pairs: 0.526426076889
+On timestep 13025000...
+Time taken to read the data: 0.262079000473
+Time taken to calculate distances  between all bead pairs: 1.98611211777
+Time taken to store these distances for all valid bead pairs: 0.534725189209
+On timestep 13045000...
+Time taken to read the data: 0.263164043427
+Time taken to calculate distances  between all bead pairs: 1.99349498749
+Time taken to store these distances for all valid bead pairs: 0.522664785385
+On timestep 13065000...
+Time taken to read the data: 0.262886047363
+Time taken to calculate distances  between all bead pairs: 1.97958993912
+Time taken to store these distances for all valid bead pairs: 0.532496929169
+On timestep 13085000...
+Time taken to read the data: 0.267688035965
+Time taken to calculate distances  between all bead pairs: 2.01893305779
+Time taken to store these distances for all valid bead pairs: 0.54056096077
+On timestep 13105000...
+Time taken to read the data: 0.261473894119
+Time taken to calculate distances  between all bead pairs: 1.97944188118
+Time taken to store these distances for all valid bead pairs: 0.5427069664
+On timestep 13125000...
+Time taken to read the data: 0.270625114441
+Time taken to calculate distances  between all bead pairs: 1.99069595337
+Time taken to store these distances for all valid bead pairs: 0.525723934174
+On timestep 13145000...
+Time taken to read the data: 0.262652873993
+Time taken to calculate distances  between all bead pairs: 1.98237299919
+Time taken to store these distances for all valid bead pairs: 0.557343006134
+On timestep 13165000...
+Time taken to read the data: 0.262354850769
+Time taken to calculate distances  between all bead pairs: 1.97825813293
+Time taken to store these distances for all valid bead pairs: 0.548012971878
+On timestep 13185000...
+Time taken to read the data: 0.259959936142
+Time taken to calculate distances  between all bead pairs: 1.98630905151
+Time taken to store these distances for all valid bead pairs: 0.545595169067
+On timestep 13205000...
+Time taken to read the data: 0.273350954056
+Time taken to calculate distances  between all bead pairs: 2.00436210632
+Time taken to store these distances for all valid bead pairs: 0.538076877594
+On timestep 13225000...
+Time taken to read the data: 0.270281076431
+Time taken to calculate distances  between all bead pairs: 1.97054886818
+Time taken to store these distances for all valid bead pairs: 0.529522895813
+On timestep 13245000...
+Time taken to read the data: 0.268927812576
+Time taken to calculate distances  between all bead pairs: 1.99472808838
+Time taken to store these distances for all valid bead pairs: 0.529493093491
+On timestep 13265000...
+Time taken to read the data: 0.272138118744
+Time taken to calculate distances  between all bead pairs: 1.99947500229
+Time taken to store these distances for all valid bead pairs: 0.555530071259
+On timestep 13285000...
+Time taken to read the data: 0.264658927917
+Time taken to calculate distances  between all bead pairs: 1.98567295074
+Time taken to store these distances for all valid bead pairs: 0.52731013298
+On timestep 13305000...
+Time taken to read the data: 0.264466047287
+Time taken to calculate distances  between all bead pairs: 1.98236608505
+Time taken to store these distances for all valid bead pairs: 0.545310020447
+On timestep 13325000...
+Time taken to read the data: 0.275810956955
+Time taken to calculate distances  between all bead pairs: 1.98123192787
+Time taken to store these distances for all valid bead pairs: 0.538425922394
+On timestep 13345000...
+Time taken to read the data: 0.263935089111
+Time taken to calculate distances  between all bead pairs: 1.98137807846
+Time taken to store these distances for all valid bead pairs: 0.536260128021
+On timestep 13365000...
+Time taken to read the data: 0.268688201904
+Time taken to calculate distances  between all bead pairs: 1.98548197746
+Time taken to store these distances for all valid bead pairs: 0.525619029999
+On timestep 13385000...
+Time taken to read the data: 0.262050867081
+Time taken to calculate distances  between all bead pairs: 1.97278094292
+Time taken to store these distances for all valid bead pairs: 0.542154788971
+On timestep 13405000...
+Time taken to read the data: 0.267816781998
+Time taken to calculate distances  between all bead pairs: 1.99327397346
+Time taken to store these distances for all valid bead pairs: 0.537451982498
+On timestep 13425000...
+Time taken to read the data: 0.26714015007
+Time taken to calculate distances  between all bead pairs: 1.98527097702
+Time taken to store these distances for all valid bead pairs: 0.555773973465
+On timestep 13445000...
+Time taken to read the data: 0.270612001419
+Time taken to calculate distances  between all bead pairs: 1.99808502197
+Time taken to store these distances for all valid bead pairs: 0.539638996124
+On timestep 13465000...
+Time taken to read the data: 0.264949083328
+Time taken to calculate distances  between all bead pairs: 2.00049614906
+Time taken to store these distances for all valid bead pairs: 0.556693077087
+On timestep 13485000...
+Time taken to read the data: 0.269405126572
+Time taken to calculate distances  between all bead pairs: 2.01105093956
+Time taken to store these distances for all valid bead pairs: 0.526036024094
+On timestep 13505000...
+Time taken to read the data: 0.262675046921
+Time taken to calculate distances  between all bead pairs: 1.98518300056
+Time taken to store these distances for all valid bead pairs: 0.544002056122
+On timestep 13525000...
+Time taken to read the data: 0.260910987854
+Time taken to calculate distances  between all bead pairs: 1.98669695854
+Time taken to store these distances for all valid bead pairs: 0.535417079926
+On timestep 13545000...
+Time taken to read the data: 0.261898994446
+Time taken to calculate distances  between all bead pairs: 1.97036385536
+Time taken to store these distances for all valid bead pairs: 0.529513120651
+On timestep 13565000...
+Time taken to read the data: 0.268606901169
+Time taken to calculate distances  between all bead pairs: 1.98861002922
+Time taken to store these distances for all valid bead pairs: 0.533414840698
+On timestep 13585000...
+Time taken to read the data: 0.263237953186
+Time taken to calculate distances  between all bead pairs: 1.97814106941
+Time taken to store these distances for all valid bead pairs: 0.553925991058
+On timestep 13605000...
+Time taken to read the data: 0.264961957932
+Time taken to calculate distances  between all bead pairs: 1.97629117966
+Time taken to store these distances for all valid bead pairs: 0.530721902847
+On timestep 13625000...
+Time taken to read the data: 0.264683961868
+Time taken to calculate distances  between all bead pairs: 1.99817991257
+Time taken to store these distances for all valid bead pairs: 0.533490896225
+On timestep 13645000...
+Time taken to read the data: 0.261209011078
+Time taken to calculate distances  between all bead pairs: 1.98868894577
+Time taken to store these distances for all valid bead pairs: 0.52411699295
+On timestep 13665000...
+Time taken to read the data: 0.26046204567
+Time taken to calculate distances  between all bead pairs: 1.98292708397
+Time taken to store these distances for all valid bead pairs: 0.549609899521
+On timestep 13685000...
+Time taken to read the data: 0.265160083771
+Time taken to calculate distances  between all bead pairs: 2.00352907181
+Time taken to store these distances for all valid bead pairs: 0.540872097015
+On timestep 13705000...
+Time taken to read the data: 0.26411485672
+Time taken to calculate distances  between all bead pairs: 1.99270105362
+Time taken to store these distances for all valid bead pairs: 0.560855865479
+On timestep 13725000...
+Time taken to read the data: 0.265611171722
+Time taken to calculate distances  between all bead pairs: 1.98111796379
+Time taken to store these distances for all valid bead pairs: 0.530379056931
+On timestep 13745000...
+Time taken to read the data: 0.260565042496
+Time taken to calculate distances  between all bead pairs: 1.98558616638
+Time taken to store these distances for all valid bead pairs: 0.539788961411
+On timestep 13765000...
+Time taken to read the data: 0.262533903122
+Time taken to calculate distances  between all bead pairs: 1.98202085495
+Time taken to store these distances for all valid bead pairs: 0.528061151505
+On timestep 13785000...
+Time taken to read the data: 0.26046204567
+Time taken to calculate distances  between all bead pairs: 1.97591209412
+Time taken to store these distances for all valid bead pairs: 0.539298057556
+On timestep 13805000...
+Time taken to read the data: 0.266979932785
+Time taken to calculate distances  between all bead pairs: 1.97780895233
+Time taken to store these distances for all valid bead pairs: 0.528648853302
+On timestep 13825000...
+Time taken to read the data: 0.263933181763
+Time taken to calculate distances  between all bead pairs: 1.99776101112
+Time taken to store these distances for all valid bead pairs: 0.545095920563
+On timestep 13845000...
+Time taken to read the data: 0.269275188446
+Time taken to calculate distances  between all bead pairs: 1.97787904739
+Time taken to store these distances for all valid bead pairs: 0.520753145218
+On timestep 13865000...
+Time taken to read the data: 0.260172128677
+Time taken to calculate distances  between all bead pairs: 1.97614407539
+Time taken to store these distances for all valid bead pairs: 0.547930955887
+On timestep 13885000...
+Time taken to read the data: 0.270430088043
+Time taken to calculate distances  between all bead pairs: 1.99184393883
+Time taken to store these distances for all valid bead pairs: 0.526397943497
+On timestep 13905000...
+Time taken to read the data: 0.26958489418
+Time taken to calculate distances  between all bead pairs: 1.98160600662
+Time taken to store these distances for all valid bead pairs: 0.551172018051
+On timestep 13925000...
+Time taken to read the data: 0.265762090683
+Time taken to calculate distances  between all bead pairs: 1.99661207199
+Time taken to store these distances for all valid bead pairs: 0.534999847412
+On timestep 13945000...
+Time taken to read the data: 0.261582136154
+Time taken to calculate distances  between all bead pairs: 1.99099206924
+Time taken to store these distances for all valid bead pairs: 0.534730911255
+On timestep 13965000...
+Time taken to read the data: 0.264628887177
+Time taken to calculate distances  between all bead pairs: 1.9753139019
+Time taken to store these distances for all valid bead pairs: 0.535156965256
+On timestep 13985000...
+Time taken to read the data: 0.264626979828
+Time taken to calculate distances  between all bead pairs: 1.98086094856
+Time taken to store these distances for all valid bead pairs: 0.535876989365
+On timestep 14005000...
+Time taken to read the data: 0.264778852463
+Time taken to calculate distances  between all bead pairs: 1.97501897812
+Time taken to store these distances for all valid bead pairs: 0.520878791809
+On timestep 14025000...
+Time taken to read the data: 0.263388872147
+Time taken to calculate distances  between all bead pairs: 1.9926970005
+Time taken to store these distances for all valid bead pairs: 0.560093164444
+On timestep 14045000...
+Time taken to read the data: 0.262411832809
+Time taken to calculate distances  between all bead pairs: 1.99287390709
+Time taken to store these distances for all valid bead pairs: 0.535299062729
+On timestep 14065000...
+Time taken to read the data: 0.261119842529
+Time taken to calculate distances  between all bead pairs: 1.99805688858
+Time taken to store these distances for all valid bead pairs: 0.537753105164
+On timestep 14085000...
+Time taken to read the data: 0.271545886993
+Time taken to calculate distances  between all bead pairs: 1.98668909073
+Time taken to store these distances for all valid bead pairs: 0.522167921066
+On timestep 14105000...
+Time taken to read the data: 0.263440132141
+Time taken to calculate distances  between all bead pairs: 1.97835612297
+Time taken to store these distances for all valid bead pairs: 0.548811912537
+On timestep 14125000...
+Time taken to read the data: 0.264902114868
+Time taken to calculate distances  between all bead pairs: 1.99158906937
+Time taken to store these distances for all valid bead pairs: 0.530941963196
+On timestep 14145000...
+Time taken to read the data: 0.265321969986
+Time taken to calculate distances  between all bead pairs: 1.99357390404
+Time taken to store these distances for all valid bead pairs: 0.53989315033
+On timestep 14165000...
+Time taken to read the data: 0.261701107025
+Time taken to calculate distances  between all bead pairs: 1.9800350666
+Time taken to store these distances for all valid bead pairs: 0.522675991058
+On timestep 14185000...
+Time taken to read the data: 0.258342027664
+Time taken to calculate distances  between all bead pairs: 1.98846507072
+Time taken to store these distances for all valid bead pairs: 0.543404102325
+On timestep 14205000...
+Time taken to read the data: 0.26637506485
+Time taken to calculate distances  between all bead pairs: 2.03763389587
+Time taken to store these distances for all valid bead pairs: 0.535715818405
+On timestep 14225000...
+Time taken to read the data: 0.264328956604
+Time taken to calculate distances  between all bead pairs: 1.9747710228
+Time taken to store these distances for all valid bead pairs: 0.531799793243
+On timestep 14245000...
+Time taken to read the data: 0.265913963318
+Time taken to calculate distances  between all bead pairs: 1.97954416275
+Time taken to store these distances for all valid bead pairs: 0.537513017654
+On timestep 14265000...
+Time taken to read the data: 0.263143062592
+Time taken to calculate distances  between all bead pairs: 1.98097991943
+Time taken to store these distances for all valid bead pairs: 0.537216901779
+On timestep 14285000...
+Time taken to read the data: 0.262232065201
+Time taken to calculate distances  between all bead pairs: 1.99013495445
+Time taken to store these distances for all valid bead pairs: 0.527010917664
+On timestep 14305000...
+Time taken to read the data: 0.25927400589
+Time taken to calculate distances  between all bead pairs: 1.97235202789
+Time taken to store these distances for all valid bead pairs: 0.528235912323
+On timestep 14325000...
+Time taken to read the data: 0.265898942947
+Time taken to calculate distances  between all bead pairs: 1.98919391632
+Time taken to store these distances for all valid bead pairs: 0.52548789978
+On timestep 14345000...
+Time taken to read the data: 0.265171051025
+Time taken to calculate distances  between all bead pairs: 2.00404191017
+Time taken to store these distances for all valid bead pairs: 0.535037994385
+On timestep 14365000...
+Time taken to read the data: 0.271598100662
+Time taken to calculate distances  between all bead pairs: 1.98216795921
+Time taken to store these distances for all valid bead pairs: 0.50976395607
+On timestep 14385000...
+Time taken to read the data: 0.262177944183
+Time taken to calculate distances  between all bead pairs: 1.98725485802
+Time taken to store these distances for all valid bead pairs: 0.527874946594
+On timestep 14405000...
+Time taken to read the data: 0.263072967529
+Time taken to calculate distances  between all bead pairs: 1.98655200005
+Time taken to store these distances for all valid bead pairs: 0.524378061295
+On timestep 14425000...
+Time taken to read the data: 0.266076087952
+Time taken to calculate distances  between all bead pairs: 1.98262000084
+Time taken to store these distances for all valid bead pairs: 0.533495187759
+On timestep 14445000...
+Time taken to read the data: 0.26435303688
+Time taken to calculate distances  between all bead pairs: 1.98400807381
+Time taken to store these distances for all valid bead pairs: 0.52544093132
+On timestep 14465000...
+Time taken to read the data: 0.274070978165
+Time taken to calculate distances  between all bead pairs: 1.97949099541
+Time taken to store these distances for all valid bead pairs: 0.532445907593
+On timestep 14485000...
+Time taken to read the data: 0.26618719101
+Time taken to calculate distances  between all bead pairs: 1.98171401024
+Time taken to store these distances for all valid bead pairs: 0.523487091064
+On timestep 14505000...
+Time taken to read the data: 0.262184858322
+Time taken to calculate distances  between all bead pairs: 1.978317976
+Time taken to store these distances for all valid bead pairs: 0.528470039368
+On timestep 14525000...
+Time taken to read the data: 0.264105081558
+Time taken to calculate distances  between all bead pairs: 1.99864792824
+Time taken to store these distances for all valid bead pairs: 0.538972139359
+On timestep 14545000...
+Time taken to read the data: 0.260531902313
+Time taken to calculate distances  between all bead pairs: 1.97713589668
+Time taken to store these distances for all valid bead pairs: 0.539671182632
+On timestep 14565000...
+Time taken to read the data: 0.270429134369
+Time taken to calculate distances  between all bead pairs: 1.99957203865
+Time taken to store these distances for all valid bead pairs: 0.523457050323
+On timestep 14585000...
+Time taken to read the data: 0.266209840775
+Time taken to calculate distances  between all bead pairs: 1.97700786591
+Time taken to store these distances for all valid bead pairs: 0.545408010483
+On timestep 14605000...
+Time taken to read the data: 0.263259887695
+Time taken to calculate distances  between all bead pairs: 1.98752403259
+Time taken to store these distances for all valid bead pairs: 0.526823043823
+On timestep 14625000...
+Time taken to read the data: 0.262923002243
+Time taken to calculate distances  between all bead pairs: 1.97342801094
+Time taken to store these distances for all valid bead pairs: 0.533776044846
+On timestep 14645000...
+Time taken to read the data: 0.262258052826
+Time taken to calculate distances  between all bead pairs: 1.98985004425
+Time taken to store these distances for all valid bead pairs: 0.536487102509
+On timestep 14665000...
+Time taken to read the data: 0.260174036026
+Time taken to calculate distances  between all bead pairs: 1.97456908226
+Time taken to store these distances for all valid bead pairs: 0.538161993027
+On timestep 14685000...
+Time taken to read the data: 0.269193887711
+Time taken to calculate distances  between all bead pairs: 1.99401497841
+Time taken to store these distances for all valid bead pairs: 0.520331859589
+On timestep 14705000...
+Time taken to read the data: 0.260498046875
+Time taken to calculate distances  between all bead pairs: 2.02223706245
+Time taken to store these distances for all valid bead pairs: 0.536760807037
+On timestep 14725000...
+Time taken to read the data: 0.263251066208
+Time taken to calculate distances  between all bead pairs: 2.00477695465
+Time taken to store these distances for all valid bead pairs: 0.549019813538
+On timestep 14745000...
+Time taken to read the data: 0.270273923874
+Time taken to calculate distances  between all bead pairs: 1.97284889221
+Time taken to store these distances for all valid bead pairs: 0.537577867508
+On timestep 14765000...
+Time taken to read the data: 0.26545715332
+Time taken to calculate distances  between all bead pairs: 1.97918796539
+Time taken to store these distances for all valid bead pairs: 0.532999038696
+On timestep 14785000...
+Time taken to read the data: 0.261938810349
+Time taken to calculate distances  between all bead pairs: 1.98356103897
+Time taken to store these distances for all valid bead pairs: 0.540615081787
+On timestep 14805000...
+Time taken to read the data: 0.269304990768
+Time taken to calculate distances  between all bead pairs: 1.9887881279
+Time taken to store these distances for all valid bead pairs: 0.527414083481
+On timestep 14825000...
+Time taken to read the data: 0.269818067551
+Time taken to calculate distances  between all bead pairs: 1.98074388504
+Time taken to store these distances for all valid bead pairs: 0.536952018738
+On timestep 14845000...
+Time taken to read the data: 0.263628959656
+Time taken to calculate distances  between all bead pairs: 1.98047709465
+Time taken to store these distances for all valid bead pairs: 0.51983499527
+On timestep 14865000...
+Time taken to read the data: 0.271442174911
+Time taken to calculate distances  between all bead pairs: 1.97512292862
+Time taken to store these distances for all valid bead pairs: 0.532331943512
+On timestep 14885000...
+Time taken to read the data: 0.266008138657
+Time taken to calculate distances  between all bead pairs: 2.0118470192
+Time taken to store these distances for all valid bead pairs: 0.528204917908
+On timestep 14905000...
+Time taken to read the data: 0.265779972076
+Time taken to calculate distances  between all bead pairs: 1.99513697624
+Time taken to store these distances for all valid bead pairs: 0.549232006073
+On timestep 14925000...
+Time taken to read the data: 0.270962953568
+Time taken to calculate distances  between all bead pairs: 1.98445105553
+Time taken to store these distances for all valid bead pairs: 0.537703037262
+On timestep 14945000...
+Time taken to read the data: 0.263427019119
+Time taken to calculate distances  between all bead pairs: 1.99980092049
+Time taken to store these distances for all valid bead pairs: 0.5367000103
+On timestep 14965000...
+Time taken to read the data: 0.274625778198
+Time taken to calculate distances  between all bead pairs: 1.99255990982
+Time taken to store these distances for all valid bead pairs: 0.529003143311
+On timestep 14985000...
+Time taken to read the data: 0.264466047287
+Time taken to calculate distances  between all bead pairs: 1.98084402084
+Time taken to store these distances for all valid bead pairs: 0.539926052094
+On timestep 15005000...
+Time taken to read the data: 0.262732982635
+Time taken to calculate distances  between all bead pairs: 2.00363397598
+Time taken to store these distances for all valid bead pairs: 0.53640794754
+On timestep 15025000...
+Time taken to read the data: 0.266504049301
+Time taken to calculate distances  between all bead pairs: 1.98684620857
+Time taken to store these distances for all valid bead pairs: 0.533734083176
+On timestep 15045000...
+Time taken to read the data: 0.2618060112
+Time taken to calculate distances  between all bead pairs: 2.00960707664
+Time taken to store these distances for all valid bead pairs: 0.52424120903
+On timestep 15065000...
+Time taken to read the data: 0.261347055435
+Time taken to calculate distances  between all bead pairs: 1.98303198814
+Time taken to store these distances for all valid bead pairs: 0.548239946365
+On timestep 15085000...
+Time taken to read the data: 0.263165950775
+Time taken to calculate distances  between all bead pairs: 1.97250795364
+Time taken to store these distances for all valid bead pairs: 0.529829025269
+On timestep 15105000...
+Time taken to read the data: 0.263636827469
+Time taken to calculate distances  between all bead pairs: 1.980686903
+Time taken to store these distances for all valid bead pairs: 0.527307033539
+On timestep 15125000...
+Time taken to read the data: 0.271951913834
+Time taken to calculate distances  between all bead pairs: 1.98296189308
+Time taken to store these distances for all valid bead pairs: 0.527656078339
+On timestep 15145000...
+Time taken to read the data: 0.265017986298
+Time taken to calculate distances  between all bead pairs: 1.98252606392
+Time taken to store these distances for all valid bead pairs: 0.549669027328
+On timestep 15165000...
+Time taken to read the data: 0.263540029526
+Time taken to calculate distances  between all bead pairs: 1.99212694168
+Time taken to store these distances for all valid bead pairs: 0.532831907272
+On timestep 15185000...
+Time taken to read the data: 0.266144037247
+Time taken to calculate distances  between all bead pairs: 1.98922014236
+Time taken to store these distances for all valid bead pairs: 0.538881063461
+On timestep 15205000...
+Time taken to read the data: 0.270143985748
+Time taken to calculate distances  between all bead pairs: 1.99875187874
+Time taken to store these distances for all valid bead pairs: 0.526574850082
+On timestep 15225000...
+Time taken to read the data: 0.263678073883
+Time taken to calculate distances  between all bead pairs: 1.97775411606
+Time taken to store these distances for all valid bead pairs: 0.533596038818
+On timestep 15245000...
+Time taken to read the data: 0.267871141434
+Time taken to calculate distances  between all bead pairs: 2.00753211975
+Time taken to store these distances for all valid bead pairs: 0.527997016907
+On timestep 15265000...
+Time taken to read the data: 0.263221979141
+Time taken to calculate distances  between all bead pairs: 1.99738812447
+Time taken to store these distances for all valid bead pairs: 0.546643972397
+On timestep 15285000...
+Time taken to read the data: 0.266796112061
+Time taken to calculate distances  between all bead pairs: 1.98387503624
+Time taken to store these distances for all valid bead pairs: 0.52365899086
+On timestep 15305000...
+Time taken to read the data: 0.268692016602
+Time taken to calculate distances  between all bead pairs: 1.99059104919
+Time taken to store these distances for all valid bead pairs: 0.537693023682
+On timestep 15325000...
+Time taken to read the data: 0.262558937073
+Time taken to calculate distances  between all bead pairs: 1.98199415207
+Time taken to store these distances for all valid bead pairs: 0.52241396904
+On timestep 15345000...
+Time taken to read the data: 0.263051986694
+Time taken to calculate distances  between all bead pairs: 1.98983693123
+Time taken to store these distances for all valid bead pairs: 0.539793014526
+On timestep 15365000...
+Time taken to read the data: 0.265069007874
+Time taken to calculate distances  between all bead pairs: 1.98959493637
+Time taken to store these distances for all valid bead pairs: 0.538667917252
+On timestep 15385000...
+Time taken to read the data: 0.262418985367
+Time taken to calculate distances  between all bead pairs: 1.99180388451
+Time taken to store these distances for all valid bead pairs: 0.546405076981
+On timestep 15405000...
+Time taken to read the data: 0.264816045761
+Time taken to calculate distances  between all bead pairs: 1.97406101227
+Time taken to store these distances for all valid bead pairs: 0.530779838562
+On timestep 15425000...
+Time taken to read the data: 0.260474920273
+Time taken to calculate distances  between all bead pairs: 1.97331094742
+Time taken to store these distances for all valid bead pairs: 0.541433095932
+On timestep 15445000...
+Time taken to read the data: 0.264007091522
+Time taken to calculate distances  between all bead pairs: 1.97930002213
+Time taken to store these distances for all valid bead pairs: 0.531754970551
+On timestep 15465000...
+Time taken to read the data: 0.269942045212
+Time taken to calculate distances  between all bead pairs: 1.9877409935
+Time taken to store these distances for all valid bead pairs: 0.547845840454
+On timestep 15485000...
+Time taken to read the data: 0.265434980392
+Time taken to calculate distances  between all bead pairs: 1.99271512032
+Time taken to store these distances for all valid bead pairs: 0.514535903931
+On timestep 15505000...
+Time taken to read the data: 0.263782024384
+Time taken to calculate distances  between all bead pairs: 2.00447487831
+Time taken to store these distances for all valid bead pairs: 0.542621850967
+On timestep 15525000...
+Time taken to read the data: 0.268495082855
+Time taken to calculate distances  between all bead pairs: 1.99549007416
+Time taken to store these distances for all valid bead pairs: 0.529659986496
+On timestep 15545000...
+Time taken to read the data: 0.26905798912
+Time taken to calculate distances  between all bead pairs: 1.98016500473
+Time taken to store these distances for all valid bead pairs: 0.536560058594
+On timestep 15565000...
+Time taken to read the data: 0.266929864883
+Time taken to calculate distances  between all bead pairs: 1.9871981144
+Time taken to store these distances for all valid bead pairs: 0.531090974808
+On timestep 15585000...
+Time taken to read the data: 0.261213064194
+Time taken to calculate distances  between all bead pairs: 1.98320412636
+Time taken to store these distances for all valid bead pairs: 0.542860031128
+On timestep 15605000...
+Time taken to read the data: 0.265428066254
+Time taken to calculate distances  between all bead pairs: 1.98543190956
+Time taken to store these distances for all valid bead pairs: 0.535507917404
+On timestep 15625000...
+Time taken to read the data: 0.26318693161
+Time taken to calculate distances  between all bead pairs: 1.98729991913
+Time taken to store these distances for all valid bead pairs: 0.538213968277
+On timestep 15645000...
+Time taken to read the data: 0.266604185104
+Time taken to calculate distances  between all bead pairs: 1.99538087845
+Time taken to store these distances for all valid bead pairs: 0.539526939392
+On timestep 15665000...
+Time taken to read the data: 0.262239933014
+Time taken to calculate distances  between all bead pairs: 1.98251891136
+Time taken to store these distances for all valid bead pairs: 0.532956838608
+On timestep 15685000...
+Time taken to read the data: 0.262903928757
+Time taken to calculate distances  between all bead pairs: 1.97914004326
+Time taken to store these distances for all valid bead pairs: 0.519382953644
+On timestep 15705000...
+Time taken to read the data: 0.264832019806
+Time taken to calculate distances  between all bead pairs: 1.98668384552
+Time taken to store these distances for all valid bead pairs: 0.535033941269
+On timestep 15725000...
+Time taken to read the data: 0.265155792236
+Time taken to calculate distances  between all bead pairs: 1.97204685211
+Time taken to store these distances for all valid bead pairs: 0.516242980957
+On timestep 15745000...
+Time taken to read the data: 0.264076948166
+Time taken to calculate distances  between all bead pairs: 1.98527002335
+Time taken to store these distances for all valid bead pairs: 0.535901784897
+On timestep 15765000...
+Time taken to read the data: 0.263695001602
+Time taken to calculate distances  between all bead pairs: 1.98438405991
+Time taken to store these distances for all valid bead pairs: 0.525121927261
+On timestep 15785000...
+Time taken to read the data: 0.262696027756
+Time taken to calculate distances  between all bead pairs: 2.00126099586
+Time taken to store these distances for all valid bead pairs: 0.537342071533
+On timestep 15805000...
+Time taken to read the data: 0.266139984131
+Time taken to calculate distances  between all bead pairs: 1.97880601883
+Time taken to store these distances for all valid bead pairs: 0.523553133011
+On timestep 15825000...
+Time taken to read the data: 0.26310300827
+Time taken to calculate distances  between all bead pairs: 1.97375202179
+Time taken to store these distances for all valid bead pairs: 0.543697118759
+On timestep 15845000...
+Time taken to read the data: 0.26962685585
+Time taken to calculate distances  between all bead pairs: 2.00140023232
+Time taken to store these distances for all valid bead pairs: 0.534988880157
+On timestep 15865000...
+Time taken to read the data: 0.267806053162
+Time taken to calculate distances  between all bead pairs: 1.97708916664
+Time taken to store these distances for all valid bead pairs: 0.538657188416
+On timestep 15885000...
+Time taken to read the data: 0.264670133591
+Time taken to calculate distances  between all bead pairs: 1.97896790504
+Time taken to store these distances for all valid bead pairs: 0.526858091354
+On timestep 15905000...
+Time taken to read the data: 0.267786979675
+Time taken to calculate distances  between all bead pairs: 1.99264883995
+Time taken to store these distances for all valid bead pairs: 0.536822080612
+On timestep 15925000...
+Time taken to read the data: 0.26895403862
+Time taken to calculate distances  between all bead pairs: 1.99597907066
+Time taken to store these distances for all valid bead pairs: 0.536729097366
+On timestep 15945000...
+Time taken to read the data: 0.264683008194
+Time taken to calculate distances  between all bead pairs: 1.97467017174
+Time taken to store these distances for all valid bead pairs: 0.526043891907
+On timestep 15965000...
+Time taken to read the data: 0.262231826782
+Time taken to calculate distances  between all bead pairs: 1.97592902184
+Time taken to store these distances for all valid bead pairs: 0.521761894226
+On timestep 15985000...
+Time taken to read the data: 0.263154029846
+Time taken to calculate distances  between all bead pairs: 1.98277902603
+Time taken to store these distances for all valid bead pairs: 0.524194955826
+On timestep 16005000...
+Time taken to read the data: 0.269742012024
+Time taken to calculate distances  between all bead pairs: 1.981112957
+Time taken to store these distances for all valid bead pairs: 0.526442050934
+On timestep 16025000...
+Time taken to read the data: 0.267754077911
+Time taken to calculate distances  between all bead pairs: 1.99674201012
+Time taken to store these distances for all valid bead pairs: 0.535778999329
+On timestep 16045000...
+Time taken to read the data: 0.264107942581
+Time taken to calculate distances  between all bead pairs: 1.98106598854
+Time taken to store these distances for all valid bead pairs: 0.52414393425
+On timestep 16065000...
+Time taken to read the data: 0.269432783127
+Time taken to calculate distances  between all bead pairs: 1.97332787514
+Time taken to store these distances for all valid bead pairs: 0.537482023239
+On timestep 16085000...
+Time taken to read the data: 0.264299154282
+Time taken to calculate distances  between all bead pairs: 1.97476100922
+Time taken to store these distances for all valid bead pairs: 0.543288946152
+On timestep 16105000...
+Time taken to read the data: 0.261749982834
+Time taken to calculate distances  between all bead pairs: 1.99227881432
+Time taken to store these distances for all valid bead pairs: 0.540822029114
+On timestep 16125000...
+Time taken to read the data: 0.263005018234
+Time taken to calculate distances  between all bead pairs: 1.98194599152
+Time taken to store these distances for all valid bead pairs: 0.533121109009
+On timestep 16145000...
+Time taken to read the data: 0.265790939331
+Time taken to calculate distances  between all bead pairs: 1.99791693687
+Time taken to store these distances for all valid bead pairs: 0.533248901367
+On timestep 16165000...
+Time taken to read the data: 0.265433073044
+Time taken to calculate distances  between all bead pairs: 1.99196505547
+Time taken to store these distances for all valid bead pairs: 0.538162946701
+On timestep 16185000...
+Time taken to read the data: 0.263917922974
+Time taken to calculate distances  between all bead pairs: 1.99598288536
+Time taken to store these distances for all valid bead pairs: 0.536905050278
+On timestep 16205000...
+Time taken to read the data: 0.264093875885
+Time taken to calculate distances  between all bead pairs: 1.9785490036
+Time taken to store these distances for all valid bead pairs: 0.533534049988
+On timestep 16225000...
+Time taken to read the data: 0.265012979507
+Time taken to calculate distances  between all bead pairs: 1.98130297661
+Time taken to store these distances for all valid bead pairs: 0.55172085762
+On timestep 16245000...
+Time taken to read the data: 0.261705160141
+Time taken to calculate distances  between all bead pairs: 1.99339008331
+Time taken to store these distances for all valid bead pairs: 0.542540073395
+On timestep 16265000...
+Time taken to read the data: 0.264366865158
+Time taken to calculate distances  between all bead pairs: 1.9847099781
+Time taken to store these distances for all valid bead pairs: 0.552304029465
+On timestep 16285000...
+Time taken to read the data: 0.259899139404
+Time taken to calculate distances  between all bead pairs: 1.99149608612
+Time taken to store these distances for all valid bead pairs: 0.527821063995
+On timestep 16305000...
+Time taken to read the data: 0.258291006088
+Time taken to calculate distances  between all bead pairs: 1.97887706757
+Time taken to store these distances for all valid bead pairs: 0.535559177399
+On timestep 16325000...
+Time taken to read the data: 0.270049095154
+Time taken to calculate distances  between all bead pairs: 1.99630403519
+Time taken to store these distances for all valid bead pairs: 0.533655881882
+On timestep 16345000...
+Time taken to read the data: 0.261883020401
+Time taken to calculate distances  between all bead pairs: 2.00134515762
+Time taken to store these distances for all valid bead pairs: 0.549044132233
+On timestep 16365000...
+Time taken to read the data: 0.270751953125
+Time taken to calculate distances  between all bead pairs: 2.00603508949
+Time taken to store these distances for all valid bead pairs: 0.52574801445
+On timestep 16385000...
+Time taken to read the data: 0.263093948364
+Time taken to calculate distances  between all bead pairs: 1.98089504242
+Time taken to store these distances for all valid bead pairs: 0.524379968643
+On timestep 16405000...
+Time taken to read the data: 0.266992092133
+Time taken to calculate distances  between all bead pairs: 2.00023293495
+Time taken to store these distances for all valid bead pairs: 0.531100034714
+On timestep 16425000...
+Time taken to read the data: 0.269530773163
+Time taken to calculate distances  between all bead pairs: 1.97345995903
+Time taken to store these distances for all valid bead pairs: 0.546323060989
+On timestep 16445000...
+Time taken to read the data: 0.264222145081
+Time taken to calculate distances  between all bead pairs: 1.97566699982
+Time taken to store these distances for all valid bead pairs: 0.533945083618
+On timestep 16465000...
+Time taken to read the data: 0.266866922379
+Time taken to calculate distances  between all bead pairs: 1.97572183609
+Time taken to store these distances for all valid bead pairs: 0.538256168365
+On timestep 16485000...
+Time taken to read the data: 0.262814044952
+Time taken to calculate distances  between all bead pairs: 1.98348522186
+Time taken to store these distances for all valid bead pairs: 0.538671016693
+On timestep 16505000...
+Time taken to read the data: 0.266103982925
+Time taken to calculate distances  between all bead pairs: 1.97662711143
+Time taken to store these distances for all valid bead pairs: 0.529939174652
+On timestep 16525000...
+Time taken to read the data: 0.267440795898
+Time taken to calculate distances  between all bead pairs: 2.00039696693
+Time taken to store these distances for all valid bead pairs: 0.521399974823
+On timestep 16545000...
+Time taken to read the data: 0.267760038376
+Time taken to calculate distances  between all bead pairs: 1.99232316017
+Time taken to store these distances for all valid bead pairs: 0.537909030914
+On timestep 16565000...
+Time taken to read the data: 0.266717910767
+Time taken to calculate distances  between all bead pairs: 1.98893094063
+Time taken to store these distances for all valid bead pairs: 0.54024887085
+On timestep 16585000...
+Time taken to read the data: 0.260152101517
+Time taken to calculate distances  between all bead pairs: 1.97216486931
+Time taken to store these distances for all valid bead pairs: 0.541521072388
+On timestep 16605000...
+Time taken to read the data: 0.26694893837
+Time taken to calculate distances  between all bead pairs: 2.00098514557
+Time taken to store these distances for all valid bead pairs: 0.525814056396
+On timestep 16625000...
+Time taken to read the data: 0.263032913208
+Time taken to calculate distances  between all bead pairs: 1.97306799889
+Time taken to store these distances for all valid bead pairs: 0.536416053772
+On timestep 16645000...
+Time taken to read the data: 0.265697956085
+Time taken to calculate distances  between all bead pairs: 1.98110103607
+Time taken to store these distances for all valid bead pairs: 0.526190042496
+On timestep 16665000...
+Time taken to read the data: 0.269179105759
+Time taken to calculate distances  between all bead pairs: 1.98222899437
+Time taken to store these distances for all valid bead pairs: 0.551675081253
+On timestep 16685000...
+Time taken to read the data: 0.261416196823
+Time taken to calculate distances  between all bead pairs: 1.97821187973
+Time taken to store these distances for all valid bead pairs: 0.537811994553
+On timestep 16705000...
+Time taken to read the data: 0.267061233521
+Time taken to calculate distances  between all bead pairs: 2.00325608253
+Time taken to store these distances for all valid bead pairs: 0.539161920547
+On timestep 16725000...
+Time taken to read the data: 0.264003992081
+Time taken to calculate distances  between all bead pairs: 1.99360013008
+Time taken to store these distances for all valid bead pairs: 0.532853126526
+On timestep 16745000...
+Time taken to read the data: 0.259855031967
+Time taken to calculate distances  between all bead pairs: 1.97983002663
+Time taken to store these distances for all valid bead pairs: 0.52609705925
+On timestep 16765000...
+Time taken to read the data: 0.263998031616
+Time taken to calculate distances  between all bead pairs: 1.99383187294
+Time taken to store these distances for all valid bead pairs: 0.526814937592
+On timestep 16785000...
+Time taken to read the data: 0.264759063721
+Time taken to calculate distances  between all bead pairs: 1.99526500702
+Time taken to store these distances for all valid bead pairs: 0.551862001419
+On timestep 16805000...
+Time taken to read the data: 0.271214962006
+Time taken to calculate distances  between all bead pairs: 1.98363208771
+Time taken to store these distances for all valid bead pairs: 0.525913000107
+On timestep 16825000...
+Time taken to read the data: 0.26444196701
+Time taken to calculate distances  between all bead pairs: 1.98132705688
+Time taken to store these distances for all valid bead pairs: 0.531264781952
+On timestep 16845000...
+Time taken to read the data: 0.265325069427
+Time taken to calculate distances  between all bead pairs: 1.97421312332
+Time taken to store these distances for all valid bead pairs: 0.520224094391
+On timestep 16865000...
+Time taken to read the data: 0.266598939896
+Time taken to calculate distances  between all bead pairs: 1.98892903328
+Time taken to store these distances for all valid bead pairs: 0.541143894196
+On timestep 16885000...
+Time taken to read the data: 0.263288021088
+Time taken to calculate distances  between all bead pairs: 1.98271298409
+Time taken to store these distances for all valid bead pairs: 0.535855054855
+On timestep 16905000...
+Time taken to read the data: 0.266387939453
+Time taken to calculate distances  between all bead pairs: 1.98630285263
+Time taken to store these distances for all valid bead pairs: 0.542526006699
+On timestep 16925000...
+Time taken to read the data: 0.264272928238
+Time taken to calculate distances  between all bead pairs: 2.00955986977
+Time taken to store these distances for all valid bead pairs: 0.526140213013
+On timestep 16945000...
+Time taken to read the data: 0.261928796768
+Time taken to calculate distances  between all bead pairs: 1.98578000069
+Time taken to store these distances for all valid bead pairs: 0.544929027557
+On timestep 16965000...
+Time taken to read the data: 0.264042854309
+Time taken to calculate distances  between all bead pairs: 1.9773080349
+Time taken to store these distances for all valid bead pairs: 0.523842811584
+On timestep 16985000...
+Time taken to read the data: 0.258238077164
+Time taken to calculate distances  between all bead pairs: 1.97778701782
+Time taken to store these distances for all valid bead pairs: 0.54062795639
+On timestep 17005000...
+Time taken to read the data: 0.263917207718
+Time taken to calculate distances  between all bead pairs: 1.98015785217
+Time taken to store these distances for all valid bead pairs: 0.528740167618
+On timestep 17025000...
+Time taken to read the data: 0.266729831696
+Time taken to calculate distances  between all bead pairs: 1.98782491684
+Time taken to store these distances for all valid bead pairs: 0.540219068527
+On timestep 17045000...
+Time taken to read the data: 0.266049861908
+Time taken to calculate distances  between all bead pairs: 1.98854494095
+Time taken to store these distances for all valid bead pairs: 0.525429964066
+On timestep 17065000...
+Time taken to read the data: 0.262115001678
+Time taken to calculate distances  between all bead pairs: 1.9891910553
+Time taken to store these distances for all valid bead pairs: 0.550439834595
+On timestep 17085000...
+Time taken to read the data: 0.263860940933
+Time taken to calculate distances  between all bead pairs: 1.98457598686
+Time taken to store these distances for all valid bead pairs: 0.530715227127
+On timestep 17105000...
+Time taken to read the data: 0.264853954315
+Time taken to calculate distances  between all bead pairs: 2.00075888634
+Time taken to store these distances for all valid bead pairs: 0.529703855515
+On timestep 17125000...
+Time taken to read the data: 0.269637823105
+Time taken to calculate distances  between all bead pairs: 1.99630784988
+Time taken to store these distances for all valid bead pairs: 0.520318031311
+On timestep 17145000...
+Time taken to read the data: 0.263101816177
+Time taken to calculate distances  between all bead pairs: 1.99048995972
+Time taken to store these distances for all valid bead pairs: 0.526458978653
+On timestep 17165000...
+Time taken to read the data: 0.263050079346
+Time taken to calculate distances  between all bead pairs: 1.98458909988
+Time taken to store these distances for all valid bead pairs: 0.53543806076
+On timestep 17185000...
+Time taken to read the data: 0.274142980576
+Time taken to calculate distances  between all bead pairs: 1.97805500031
+Time taken to store these distances for all valid bead pairs: 0.54474902153
+On timestep 17205000...
+Time taken to read the data: 0.269520044327
+Time taken to calculate distances  between all bead pairs: 1.98709702492
+Time taken to store these distances for all valid bead pairs: 0.523941993713
+On timestep 17225000...
+Time taken to read the data: 0.265374898911
+Time taken to calculate distances  between all bead pairs: 1.97642302513
+Time taken to store these distances for all valid bead pairs: 0.530315876007
+On timestep 17245000...
+Time taken to read the data: 0.265586137772
+Time taken to calculate distances  between all bead pairs: 1.98385500908
+Time taken to store these distances for all valid bead pairs: 0.523185014725
+On timestep 17265000...
+Time taken to read the data: 0.263258934021
+Time taken to calculate distances  between all bead pairs: 1.9894900322
+Time taken to store these distances for all valid bead pairs: 0.53350019455
+On timestep 17285000...
+Time taken to read the data: 0.274162054062
+Time taken to calculate distances  between all bead pairs: 2.00525403023
+Time taken to store these distances for all valid bead pairs: 0.527471065521
+On timestep 17305000...
+Time taken to read the data: 0.264105796814
+Time taken to calculate distances  between all bead pairs: 1.99685311317
+Time taken to store these distances for all valid bead pairs: 0.54136300087
+On timestep 17325000...
+Time taken to read the data: 0.265817165375
+Time taken to calculate distances  between all bead pairs: 1.97615194321
+Time taken to store these distances for all valid bead pairs: 0.533246994019
+On timestep 17345000...
+Time taken to read the data: 0.267080068588
+Time taken to calculate distances  between all bead pairs: 1.97798395157
+Time taken to store these distances for all valid bead pairs: 0.535624980927
+On timestep 17365000...
+Time taken to read the data: 0.270310878754
+Time taken to calculate distances  between all bead pairs: 1.97845196724
+Time taken to store these distances for all valid bead pairs: 0.537653923035
+On timestep 17385000...
+Time taken to read the data: 0.266423940659
+Time taken to calculate distances  between all bead pairs: 1.98665595055
+Time taken to store these distances for all valid bead pairs: 0.542307853699
+On timestep 17405000...
+Time taken to read the data: 0.269515991211
+Time taken to calculate distances  between all bead pairs: 1.99533581734
+Time taken to store these distances for all valid bead pairs: 0.538223028183
+On timestep 17425000...
+Time taken to read the data: 0.260802984238
+Time taken to calculate distances  between all bead pairs: 2.01344609261
+Time taken to store these distances for all valid bead pairs: 0.538670063019
+On timestep 17445000...
+Time taken to read the data: 0.263537883759
+Time taken to calculate distances  between all bead pairs: 1.99517893791
+Time taken to store these distances for all valid bead pairs: 0.535346031189
+On timestep 17465000...
+Time taken to read the data: 0.263325929642
+Time taken to calculate distances  between all bead pairs: 1.98836016655
+Time taken to store these distances for all valid bead pairs: 0.533598899841
+On timestep 17485000...
+Time taken to read the data: 0.27118897438
+Time taken to calculate distances  between all bead pairs: 1.9994661808
+Time taken to store these distances for all valid bead pairs: 0.52947807312
+On timestep 17505000...
+Time taken to read the data: 0.263459920883
+Time taken to calculate distances  between all bead pairs: 1.98178815842
+Time taken to store these distances for all valid bead pairs: 0.540991067886
+On timestep 17525000...
+Time taken to read the data: 0.26332616806
+Time taken to calculate distances  between all bead pairs: 2.02015304565
+Time taken to store these distances for all valid bead pairs: 0.531233787537
+On timestep 17545000...
+Time taken to read the data: 0.263072967529
+Time taken to calculate distances  between all bead pairs: 1.99616193771
+Time taken to store these distances for all valid bead pairs: 0.537022829056
+On timestep 17565000...
+Time taken to read the data: 0.263413906097
+Time taken to calculate distances  between all bead pairs: 1.98679685593
+Time taken to store these distances for all valid bead pairs: 0.534786939621
+On timestep 17585000...
+Time taken to read the data: 0.262124061584
+Time taken to calculate distances  between all bead pairs: 1.97148513794
+Time taken to store these distances for all valid bead pairs: 0.535861968994
+On timestep 17605000...
+Time taken to read the data: 0.265832901001
+Time taken to calculate distances  between all bead pairs: 1.97893595695
+Time taken to store these distances for all valid bead pairs: 0.523277997971
+On timestep 17625000...
+Time taken to read the data: 0.261155843735
+Time taken to calculate distances  between all bead pairs: 2.01431393623
+Time taken to store these distances for all valid bead pairs: 0.546760082245
+On timestep 17645000...
+Time taken to read the data: 0.266673088074
+Time taken to calculate distances  between all bead pairs: 2.00313591957
+Time taken to store these distances for all valid bead pairs: 0.529304027557
+On timestep 17665000...
+Time taken to read the data: 0.266100883484
+Time taken to calculate distances  between all bead pairs: 1.99431300163
+Time taken to store these distances for all valid bead pairs: 0.549818992615
+On timestep 17685000...
+Time taken to read the data: 0.263716936111
+Time taken to calculate distances  between all bead pairs: 1.98205518723
+Time taken to store these distances for all valid bead pairs: 0.528172016144
+On timestep 17705000...
+Time taken to read the data: 0.261480808258
+Time taken to calculate distances  between all bead pairs: 1.97570586205
+Time taken to store these distances for all valid bead pairs: 0.535677909851
+On timestep 17725000...
+Time taken to read the data: 0.266503095627
+Time taken to calculate distances  between all bead pairs: 1.98284602165
+Time taken to store these distances for all valid bead pairs: 0.530591964722
+On timestep 17745000...
+Time taken to read the data: 0.269569158554
+Time taken to calculate distances  between all bead pairs: 2.0988380909
+Time taken to store these distances for all valid bead pairs: 0.544786930084
+On timestep 17765000...
+Time taken to read the data: 0.258364915848
+Time taken to calculate distances  between all bead pairs: 1.98402500153
+Time taken to store these distances for all valid bead pairs: 0.531955003738
+On timestep 17785000...
+Time taken to read the data: 0.266177892685
+Time taken to calculate distances  between all bead pairs: 1.98960590363
+Time taken to store these distances for all valid bead pairs: 0.545277118683
+On timestep 17805000...
+Time taken to read the data: 0.267843961716
+Time taken to calculate distances  between all bead pairs: 2.02483105659
+Time taken to store these distances for all valid bead pairs: 0.525176048279
+On timestep 17825000...
+Time taken to read the data: 0.262986898422
+Time taken to calculate distances  between all bead pairs: 1.98084020615
+Time taken to store these distances for all valid bead pairs: 0.536900043488
+On timestep 17845000...
+Time taken to read the data: 0.263972997665
+Time taken to calculate distances  between all bead pairs: 1.9903459549
+Time taken to store these distances for all valid bead pairs: 0.530079126358
+On timestep 17865000...
+Time taken to read the data: 0.261444807053
+Time taken to calculate distances  between all bead pairs: 1.98115706444
+Time taken to store these distances for all valid bead pairs: 0.540060043335
+On timestep 17885000...
+Time taken to read the data: 0.262650966644
+Time taken to calculate distances  between all bead pairs: 2.03950595856
+Time taken to store these distances for all valid bead pairs: 0.544233083725
+On timestep 17905000...
+Time taken to read the data: 0.269174814224
+Time taken to calculate distances  between all bead pairs: 1.97649908066
+Time taken to store these distances for all valid bead pairs: 0.535942077637
+On timestep 17925000...
+Time taken to read the data: 0.263081073761
+Time taken to calculate distances  between all bead pairs: 1.97460722923
+Time taken to store these distances for all valid bead pairs: 0.510795116425
+On timestep 17945000...
+Time taken to read the data: 0.261272192001
+Time taken to calculate distances  between all bead pairs: 1.98446297646
+Time taken to store these distances for all valid bead pairs: 0.538290023804
+On timestep 17965000...
+Time taken to read the data: 0.270904779434
+Time taken to calculate distances  between all bead pairs: 2.00959992409
+Time taken to store these distances for all valid bead pairs: 0.53840303421
+On timestep 17985000...
+Time taken to read the data: 0.268527984619
+Time taken to calculate distances  between all bead pairs: 1.9760119915
+Time taken to store these distances for all valid bead pairs: 0.532557964325
+On timestep 18005000...
+Time taken to read the data: 0.26430106163
+Time taken to calculate distances  between all bead pairs: 1.98522901535
+Time taken to store these distances for all valid bead pairs: 0.543058156967
+On timestep 18025000...
+Time taken to read the data: 0.265749931335
+Time taken to calculate distances  between all bead pairs: 1.98182702065
+Time taken to store these distances for all valid bead pairs: 0.541709184647
+On timestep 18045000...
+Time taken to read the data: 0.267114877701
+Time taken to calculate distances  between all bead pairs: 2.0316631794
+Time taken to store these distances for all valid bead pairs: 0.526087999344
+On timestep 18065000...
+Time taken to read the data: 0.259428024292
+Time taken to calculate distances  between all bead pairs: 1.97952008247
+Time taken to store these distances for all valid bead pairs: 0.543641090393
+On timestep 18085000...
+Time taken to read the data: 0.270015954971
+Time taken to calculate distances  between all bead pairs: 1.98302197456
+Time taken to store these distances for all valid bead pairs: 0.532065153122
+On timestep 18105000...
+Time taken to read the data: 0.266072034836
+Time taken to calculate distances  between all bead pairs: 1.98319792747
+Time taken to store these distances for all valid bead pairs: 0.537173986435
+On timestep 18125000...
+Time taken to read the data: 0.26354598999
+Time taken to calculate distances  between all bead pairs: 1.97855186462
+Time taken to store these distances for all valid bead pairs: 0.543478965759
+On timestep 18145000...
+Time taken to read the data: 0.267239093781
+Time taken to calculate distances  between all bead pairs: 1.97408008575
+Time taken to store these distances for all valid bead pairs: 0.5287129879
+On timestep 18165000...
+Time taken to read the data: 0.264923095703
+Time taken to calculate distances  between all bead pairs: 1.98270010948
+Time taken to store these distances for all valid bead pairs: 0.537801027298
+On timestep 18185000...
+Time taken to read the data: 0.268316984177
+Time taken to calculate distances  between all bead pairs: 2.05226922035
+Time taken to store these distances for all valid bead pairs: 0.539803981781
+On timestep 18205000...
+Time taken to read the data: 0.2665579319
+Time taken to calculate distances  between all bead pairs: 1.98162722588
+Time taken to store these distances for all valid bead pairs: 0.539168119431
+On timestep 18225000...
+Time taken to read the data: 0.267606973648
+Time taken to calculate distances  between all bead pairs: 1.9912879467
+Time taken to store these distances for all valid bead pairs: 0.544229030609
+On timestep 18245000...
+Time taken to read the data: 0.260854005814
+Time taken to calculate distances  between all bead pairs: 1.98850393295
+Time taken to store these distances for all valid bead pairs: 0.531409978867
+On timestep 18265000...
+Time taken to read the data: 0.270902872086
+Time taken to calculate distances  between all bead pairs: 1.98557806015
+Time taken to store these distances for all valid bead pairs: 0.524741888046
+On timestep 18285000...
+Time taken to read the data: 0.272447109222
+Time taken to calculate distances  between all bead pairs: 1.98017382622
+Time taken to store these distances for all valid bead pairs: 0.511702060699
+On timestep 18305000...
+Time taken to read the data: 0.262636899948
+Time taken to calculate distances  between all bead pairs: 1.96954989433
+Time taken to store these distances for all valid bead pairs: 0.540081977844
+On timestep 18325000...
+Time taken to read the data: 0.265331983566
+Time taken to calculate distances  between all bead pairs: 1.99373984337
+Time taken to store these distances for all valid bead pairs: 0.53254199028
+On timestep 18345000...
+Time taken to read the data: 0.267354011536
+Time taken to calculate distances  between all bead pairs: 1.96955084801
+Time taken to store these distances for all valid bead pairs: 0.526930809021
+On timestep 18365000...
+Time taken to read the data: 0.264454841614
+Time taken to calculate distances  between all bead pairs: 2.05010795593
+Time taken to store these distances for all valid bead pairs: 0.527690887451
+On timestep 18385000...
+Time taken to read the data: 0.265426158905
+Time taken to calculate distances  between all bead pairs: 1.96663808823
+Time taken to store these distances for all valid bead pairs: 0.534972906113
+On timestep 18405000...
+Time taken to read the data: 0.267518997192
+Time taken to calculate distances  between all bead pairs: 1.99135303497
+Time taken to store these distances for all valid bead pairs: 0.53369808197
+On timestep 18425000...
+Time taken to read the data: 0.260900974274
+Time taken to calculate distances  between all bead pairs: 2.00334310532
+Time taken to store these distances for all valid bead pairs: 0.526895046234
+On timestep 18445000...
+Time taken to read the data: 0.266386985779
+Time taken to calculate distances  between all bead pairs: 1.97585892677
+Time taken to store these distances for all valid bead pairs: 0.521823167801
+On timestep 18465000...
+Time taken to read the data: 0.265503883362
+Time taken to calculate distances  between all bead pairs: 1.98943281174
+Time taken to store these distances for all valid bead pairs: 0.54255604744
+On timestep 18485000...
+Time taken to read the data: 0.270674943924
+Time taken to calculate distances  between all bead pairs: 1.9918448925
+Time taken to store these distances for all valid bead pairs: 0.522135972977
+On timestep 18505000...
+Time taken to read the data: 0.264903783798
+Time taken to calculate distances  between all bead pairs: 2.0009739399
+Time taken to store these distances for all valid bead pairs: 0.513989925385
+On timestep 18525000...
+Time taken to read the data: 0.26797580719
+Time taken to calculate distances  between all bead pairs: 2.0357029438
+Time taken to store these distances for all valid bead pairs: 0.529425859451
+On timestep 18545000...
+Time taken to read the data: 0.267451047897
+Time taken to calculate distances  between all bead pairs: 1.98298096657
+Time taken to store these distances for all valid bead pairs: 0.526568174362
+On timestep 18565000...
+Time taken to read the data: 0.26441192627
+Time taken to calculate distances  between all bead pairs: 1.97780108452
+Time taken to store these distances for all valid bead pairs: 0.53249001503
+On timestep 18585000...
+Time taken to read the data: 0.260860919952
+Time taken to calculate distances  between all bead pairs: 1.98839688301
+Time taken to store these distances for all valid bead pairs: 0.55153298378
+On timestep 18605000...
+Time taken to read the data: 0.265669107437
+Time taken to calculate distances  between all bead pairs: 1.99346804619
+Time taken to store these distances for all valid bead pairs: 0.535604000092
+On timestep 18625000...
+Time taken to read the data: 0.272156000137
+Time taken to calculate distances  between all bead pairs: 1.97900891304
+Time taken to store these distances for all valid bead pairs: 0.539595127106
+On timestep 18645000...
+Time taken to read the data: 0.266572952271
+Time taken to calculate distances  between all bead pairs: 1.9823179245
+Time taken to store these distances for all valid bead pairs: 0.530753135681
+On timestep 18665000...
+Time taken to read the data: 0.27131485939
+Time taken to calculate distances  between all bead pairs: 2.04336500168
+Time taken to store these distances for all valid bead pairs: 0.540523052216
+On timestep 18685000...
+Time taken to read the data: 0.261500835419
+Time taken to calculate distances  between all bead pairs: 1.97184300423
+Time taken to store these distances for all valid bead pairs: 0.506384849548
+On timestep 18705000...
+Time taken to read the data: 0.262420892715
+Time taken to calculate distances  between all bead pairs: 1.98734998703
+Time taken to store these distances for all valid bead pairs: 0.533401966095
+On timestep 18725000...
+Time taken to read the data: 0.262026071548
+Time taken to calculate distances  between all bead pairs: 2.01876997948
+Time taken to store these distances for all valid bead pairs: 0.525624990463
+On timestep 18745000...
+Time taken to read the data: 0.265667915344
+Time taken to calculate distances  between all bead pairs: 1.98231005669
+Time taken to store these distances for all valid bead pairs: 0.541640043259
+On timestep 18765000...
+Time taken to read the data: 0.27393913269
+Time taken to calculate distances  between all bead pairs: 1.97657585144
+Time taken to store these distances for all valid bead pairs: 0.525454998016
+On timestep 18785000...
+Time taken to read the data: 0.26654291153
+Time taken to calculate distances  between all bead pairs: 1.99388599396
+Time taken to store these distances for all valid bead pairs: 0.533516168594
+On timestep 18805000...
+Time taken to read the data: 0.266281843185
+Time taken to calculate distances  between all bead pairs: 1.97157597542
+Time taken to store these distances for all valid bead pairs: 0.519033908844
+On timestep 18825000...
+Time taken to read the data: 0.270085096359
+Time taken to calculate distances  between all bead pairs: 2.02718997002
+Time taken to store these distances for all valid bead pairs: 0.537436008453
+On timestep 18845000...
+Time taken to read the data: 0.2630879879
+Time taken to calculate distances  between all bead pairs: 1.97881889343
+Time taken to store these distances for all valid bead pairs: 0.532477855682
+On timestep 18865000...
+Time taken to read the data: 0.271661043167
+Time taken to calculate distances  between all bead pairs: 1.99540400505
+Time taken to store these distances for all valid bead pairs: 0.526283025742
+On timestep 18885000...
+Time taken to read the data: 0.260609149933
+Time taken to calculate distances  between all bead pairs: 1.97340488434
+Time taken to store these distances for all valid bead pairs: 0.524229049683
+On timestep 18905000...
+Time taken to read the data: 0.262540817261
+Time taken to calculate distances  between all bead pairs: 1.97768092155
+Time taken to store these distances for all valid bead pairs: 0.545483827591
+On timestep 18925000...
+Time taken to read the data: 0.265542030334
+Time taken to calculate distances  between all bead pairs: 2.01411485672
+Time taken to store these distances for all valid bead pairs: 0.523542165756
+On timestep 18945000...
+Time taken to read the data: 0.258912086487
+Time taken to calculate distances  between all bead pairs: 1.96864509583
+Time taken to store these distances for all valid bead pairs: 0.521680831909
+On timestep 18965000...
+Time taken to read the data: 0.2642121315
+Time taken to calculate distances  between all bead pairs: 2.0553689003
+Time taken to store these distances for all valid bead pairs: 0.518671035767
+On timestep 18985000...
+Time taken to read the data: 0.265580177307
+Time taken to calculate distances  between all bead pairs: 1.97518491745
+Time taken to store these distances for all valid bead pairs: 0.53088092804
+On timestep 19005000...
+Time taken to read the data: 0.263241052628
+Time taken to calculate distances  between all bead pairs: 1.98983407021
+Time taken to store these distances for all valid bead pairs: 0.527954816818
+On timestep 19025000...
+Time taken to read the data: 0.263573884964
+Time taken to calculate distances  between all bead pairs: 1.97795915604
+Time taken to store these distances for all valid bead pairs: 0.532781124115
+On timestep 19045000...
+Time taken to read the data: 0.272763967514
+Time taken to calculate distances  between all bead pairs: 1.98720192909
+Time taken to store these distances for all valid bead pairs: 0.521258831024
+On timestep 19065000...
+Time taken to read the data: 0.262983083725
+Time taken to calculate distances  between all bead pairs: 1.98014712334
+Time taken to store these distances for all valid bead pairs: 0.521102905273
+On timestep 19085000...
+Time taken to read the data: 0.269560098648
+Time taken to calculate distances  between all bead pairs: 1.98175191879
+Time taken to store these distances for all valid bead pairs: 0.542414903641
+On timestep 19105000...
+Time taken to read the data: 0.267786979675
+Time taken to calculate distances  between all bead pairs: 1.97799897194
+Time taken to store these distances for all valid bead pairs: 0.538441181183
+On timestep 19125000...
+Time taken to read the data: 0.274848937988
+Time taken to calculate distances  between all bead pairs: 2.01884794235
+Time taken to store these distances for all valid bead pairs: 0.530537128448
+On timestep 19145000...
+Time taken to read the data: 0.260898113251
+Time taken to calculate distances  between all bead pairs: 1.97790908813
+Time taken to store these distances for all valid bead pairs: 0.542271137238
+On timestep 19165000...
+Time taken to read the data: 0.267579078674
+Time taken to calculate distances  between all bead pairs: 1.98316502571
+Time taken to store these distances for all valid bead pairs: 0.527791976929
+On timestep 19185000...
+Time taken to read the data: 0.264571905136
+Time taken to calculate distances  between all bead pairs: 1.96734285355
+Time taken to store these distances for all valid bead pairs: 0.537182092667
+On timestep 19205000...
+Time taken to read the data: 0.267776966095
+Time taken to calculate distances  between all bead pairs: 1.98555111885
+Time taken to store these distances for all valid bead pairs: 0.52405500412
+On timestep 19225000...
+Time taken to read the data: 0.262670993805
+Time taken to calculate distances  between all bead pairs: 1.96616601944
+Time taken to store these distances for all valid bead pairs: 0.531706094742
+On timestep 19245000...
+Time taken to read the data: 0.261836051941
+Time taken to calculate distances  between all bead pairs: 1.98763203621
+Time taken to store these distances for all valid bead pairs: 0.510391950607
+On timestep 19265000...
+Time taken to read the data: 0.263499975204
+Time taken to calculate distances  between all bead pairs: 1.97321915627
+Time taken to store these distances for all valid bead pairs: 0.546435117722
+On timestep 19285000...
+Time taken to read the data: 0.272102832794
+Time taken to calculate distances  between all bead pairs: 2.03123998642
+Time taken to store these distances for all valid bead pairs: 0.521628141403
+On timestep 19305000...
+Time taken to read the data: 0.261548995972
+Time taken to calculate distances  between all bead pairs: 1.96391582489
+Time taken to store these distances for all valid bead pairs: 0.53161907196
+On timestep 19325000...
+Time taken to read the data: 0.264866113663
+Time taken to calculate distances  between all bead pairs: 1.97819709778
+Time taken to store these distances for all valid bead pairs: 0.534064054489
+On timestep 19345000...
+Time taken to read the data: 0.266531944275
+Time taken to calculate distances  between all bead pairs: 1.98816895485
+Time taken to store these distances for all valid bead pairs: 0.532531023026
+On timestep 19365000...
+Time taken to read the data: 0.273751974106
+Time taken to calculate distances  between all bead pairs: 1.99856996536
+Time taken to store these distances for all valid bead pairs: 0.516937971115
+On timestep 19385000...
+Time taken to read the data: 0.266663074493
+Time taken to calculate distances  between all bead pairs: 1.9716629982
+Time taken to store these distances for all valid bead pairs: 0.533514976501
+On timestep 19405000...
+Time taken to read the data: 0.267350912094
+Time taken to calculate distances  between all bead pairs: 1.96976804733
+Time taken to store these distances for all valid bead pairs: 0.532826900482
+On timestep 19425000...
+Time taken to read the data: 0.264845848083
+Time taken to calculate distances  between all bead pairs: 1.97977995872
+Time taken to store these distances for all valid bead pairs: 0.544610023499
+On timestep 19445000...
+Time taken to read the data: 0.27477812767
+Time taken to calculate distances  between all bead pairs: 2.0271718502
+Time taken to store these distances for all valid bead pairs: 0.520323038101
+On timestep 19465000...
+Time taken to read the data: 0.260674953461
+Time taken to calculate distances  between all bead pairs: 1.96954202652
+Time taken to store these distances for all valid bead pairs: 0.54004406929
+On timestep 19485000...
+Time taken to read the data: 0.265624046326
+Time taken to calculate distances  between all bead pairs: 1.98313498497
+Time taken to store these distances for all valid bead pairs: 0.518998861313
+On timestep 19505000...
+Time taken to read the data: 0.262897968292
+Time taken to calculate distances  between all bead pairs: 1.99032187462
+Time taken to store these distances for all valid bead pairs: 0.535894155502
+On timestep 19525000...
+Time taken to read the data: 0.269543170929
+Time taken to calculate distances  between all bead pairs: 1.97405409813
+Time taken to store these distances for all valid bead pairs: 0.531630039215
+On timestep 19545000...
+Time taken to read the data: 0.271707057953
+Time taken to calculate distances  between all bead pairs: 1.98287296295
+Time taken to store these distances for all valid bead pairs: 0.531050920486
+On timestep 19565000...
+Time taken to read the data: 0.266757965088
+Time taken to calculate distances  between all bead pairs: 1.97940015793
+Time taken to store these distances for all valid bead pairs: 0.521520853043
+On timestep 19585000...
+Time taken to read the data: 0.263077974319
+Time taken to calculate distances  between all bead pairs: 1.97347187996
+Time taken to store these distances for all valid bead pairs: 0.529122114182
+On timestep 19605000...
+Time taken to read the data: 0.27071595192
+Time taken to calculate distances  between all bead pairs: 2.03704500198
+Time taken to store these distances for all valid bead pairs: 0.52302312851
+On timestep 19625000...
+Time taken to read the data: 0.260262966156
+Time taken to calculate distances  between all bead pairs: 1.96501088142
+Time taken to store these distances for all valid bead pairs: 0.537988901138
+On timestep 19645000...
+Time taken to read the data: 0.269010066986
+Time taken to calculate distances  between all bead pairs: 1.98019099236
+Time taken to store these distances for all valid bead pairs: 0.539623975754
+On timestep 19665000...
+Time taken to read the data: 0.26807808876
+Time taken to calculate distances  between all bead pairs: 1.98490381241
+Time taken to store these distances for all valid bead pairs: 0.541128873825
+On timestep 19685000...
+Time taken to read the data: 0.266435146332
+Time taken to calculate distances  between all bead pairs: 1.97121906281
+Time taken to store these distances for all valid bead pairs: 0.515334129333
+On timestep 19705000...
+Time taken to read the data: 0.264394044876
+Time taken to calculate distances  between all bead pairs: 1.97659301758
+Time taken to store these distances for all valid bead pairs: 0.533591985703
+On timestep 19725000...
+Time taken to read the data: 0.266880989075
+Time taken to calculate distances  between all bead pairs: 2.00559210777
+Time taken to store these distances for all valid bead pairs: 0.533876895905
+On timestep 19745000...
+Time taken to read the data: 0.270443201065
+Time taken to calculate distances  between all bead pairs: 1.99155902863
+Time taken to store these distances for all valid bead pairs: 0.529275894165
+On timestep 19765000...
+Time taken to read the data: 0.266489982605
+Time taken to calculate distances  between all bead pairs: 2.02658319473
+Time taken to store these distances for all valid bead pairs: 0.525408983231
+On timestep 19785000...
+Time taken to read the data: 0.262404918671
+Time taken to calculate distances  between all bead pairs: 1.96875882149
+Time taken to store these distances for all valid bead pairs: 0.526348829269
+On timestep 19805000...
+Time taken to read the data: 0.260321140289
+Time taken to calculate distances  between all bead pairs: 1.99748897552
+Time taken to store these distances for all valid bead pairs: 0.526099205017
+On timestep 19825000...
+Time taken to read the data: 0.259476184845
+Time taken to calculate distances  between all bead pairs: 1.97310304642
+Time taken to store these distances for all valid bead pairs: 0.529021978378
+On timestep 19845000...
+Time taken to read the data: 0.266478061676
+Time taken to calculate distances  between all bead pairs: 1.98909306526
+Time taken to store these distances for all valid bead pairs: 0.513056993484
+On timestep 19865000...
+Time taken to read the data: 0.265561103821
+Time taken to calculate distances  between all bead pairs: 1.98386287689
+Time taken to store these distances for all valid bead pairs: 0.539364814758
+On timestep 19885000...
+Time taken to read the data: 0.268162965775
+Time taken to calculate distances  between all bead pairs: 1.97926092148
+Time taken to store these distances for all valid bead pairs: 0.527738809586
+On timestep 19905000...
+Time taken to read the data: 0.263323068619
+Time taken to calculate distances  between all bead pairs: 2.04575300217
+Time taken to store these distances for all valid bead pairs: 0.533684015274
+On timestep 19925000...
+Time taken to read the data: 0.259915113449
+Time taken to calculate distances  between all bead pairs: 1.97291183472
+Time taken to store these distances for all valid bead pairs: 0.536647796631
+On timestep 19945000...
+Time taken to read the data: 0.268317937851
+Time taken to calculate distances  between all bead pairs: 1.97394704819
+Time taken to store these distances for all valid bead pairs: 0.533537149429
+On timestep 19965000...
+Time taken to read the data: 0.268249988556
+Time taken to calculate distances  between all bead pairs: 1.97495412827
+Time taken to store these distances for all valid bead pairs: 0.517198801041
+On timestep 19985000...
+Time taken to read the data: 0.265912055969
+Time taken to calculate distances  between all bead pairs: 1.98632407188
+Time taken to store these distances for all valid bead pairs: 0.531931877136
+Time taken to postprocess data: 0.154453039169
+Net time taken to preprocess data: 1655.15726781
