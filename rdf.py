@@ -85,7 +85,7 @@ def main(argv):
         quit()
 
     # Parse ids of groups of interest from data file
-    atoms,bonds,angles,dihedrals,impropers,box,adj_list,adj_mat,extra_prop = parse_data_file(data_file, args.atom_style) # uncomment when impropers class is added
+    atoms,bonds,angles,dihedrals,impropers,box,adj_mat,extra_prop = parse_data_file(data_file, args.atom_style) # uncomment when impropers class is added
     #atoms, bonds, angles, dihedrals, box, extra_prop = parse_data_file(data_file, args.atom_style)
 
     # Build adjacency matrix and list
@@ -122,7 +122,7 @@ def main(argv):
         cart2frac = np.matrix([
             [1. / a, -cosgamma / (a * singamma), (cosalpha * cosgamma - cosbeta) / (a * volume * singamma)],
             [0, 1 / (b * singamma), (cosbeta * cosgamma - cosalpha) / (b * volume * singamma)],
-            [0, 0, singamma / (c * volume)]])
+            [0, 0, singamma / (c * volume)]]).T
 
         # Minimum image convention for non-cubic cells: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.57.1696, page 6
         smallest_max_box_length = np.min(np.abs([a*np.sin(np.arccos(cosgamma)), b*np.sin(np.arccos(cosalpha)), c*np.sin(np.arccos(cosbeta))])) / 2

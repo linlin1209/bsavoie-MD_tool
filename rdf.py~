@@ -8,7 +8,7 @@ import scipy.spatial
 import time
 
 def main(argv):
-    parser = argparse.ArgumentParser(description='Calculates rdf based on given groups from a LAMMPS trajectory or data file.')
+    parser = argparse.ArgumentParser(description='Calculates rdf based on given groups from a LAMMPS trajectory or data file for 3D trajectories.')
 
     parser.add_argument('traj_file', type=str,
                         help='Name of LAMMPS trajectory file to compute RDF over.')
@@ -50,7 +50,7 @@ def main(argv):
                         help='LAMMPS atom_style in data file')
 
     parser.add_argument('-bond_sep', dest='bond_sep', type=int, default=4,
-                        help='Do not include 1-2, 1-3,..., 1-bond_sep neighbors while calculating rdf. Default=4')
+                        help='Do not include 1-2, 1-3,..., 1-bond_sep neighbors while calculating rdf. bond_sep of -1 corresponds to infinite bond separation, and will exclude all atoms in the same molecule. Default=4')
 
     args = parser.parse_args()
 
@@ -61,7 +61,7 @@ def main(argv):
     group2 = args.group2.split()
     group1_types = args.group1_type.split()
     group2_types = args.group2_type.split()
-    acceptable_types = ['type', 'element', 'com']
+    acceptable_types = ['type', 'element']
     for count_i, i in enumerate(group1_types):
         if i not in acceptable_types:
             print('Group1_type must be in {}. Quitting...'.format(acceptable_types))
@@ -100,8 +100,8 @@ def main(argv):
     # if max_box > r_max, set r_max to max_box/2, print notification of this change
     r_max = args.r_max
     # Find shortest dimension
-    if len(box) == 4: # Non cubic
-        # https://docs.lammps.org/Howto_triclinic.html
+    if len(box) == 4: # Non cubic - setup volume for shortest dimension and transformation matrices for computing distances later
+        # For info about lammps tilt factors and the transformation matrix: https://docs.lammps.org/Howto_triclinic.html
         lx,ly,lz = [box[i][1] - box[i][0] for i in range(3)]
         xy,xz,yz = box[3]
         a = lx
@@ -110,6 +110,20 @@ def main(argv):
         cosalpha = (xy*xz + ly*yz) / (b*c)
         cosbeta = xz/c
         cosgamma = xy/b
+        singamma = np.sin(np.arccos(cosgamma))
+
+        volume = np.sqrt(1.0 - cosalpha ** 2 - cosbeta ** 2 - cosgamma ** 2 + 2.0 * cosalpha * cosbeta * cosgamma)
+
+        frac2cart = np.matrix([
+            [a, b * cosgamma, c * cosbeta],
+            [0, b * singamma, (c * (cosalpha - cosbeta * cosgamma) / singamma)],
+            [0, 0, c * volume / singamma]]).T
+
+        cart2frac = np.matrix([
+            [1. / a, -cosgamma / (a * singamma), (cosalpha * cosgamma - cosbeta) / (a * volume * singamma)],
+            [0, 1 / (b * singamma), (cosbeta * cosgamma - cosalpha) / (b * volume * singamma)],
+            [0, 0, singamma / (c * volume)]]).T
+
         # Minimum image convention for non-cubic cells: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.57.1696, page 6
         smallest_max_box_length = np.min(np.abs([a*np.sin(np.arccos(cosgamma)), b*np.sin(np.arccos(cosalpha)), c*np.sin(np.arccos(cosbeta))])) / 2
         if r_max == 0 or r_max > smallest_max_box_length:
@@ -132,7 +146,23 @@ def main(argv):
 
     # Discard distances on the same molecule (Modify with bond_sep)
     excl_mat_list = []
-    if args.bond_sep > 0:
+
+    if args.bond_sep == -1:
+        for g in range(len(group1)):
+            if group1_types[g] == 'type':
+                if group2_types[g] == 'type':
+                    excl_mat = np.tile(atoms.mol_id[atoms.lammps_type==group1[g]][:,np.newaxis],(1,len(atoms.mol_id[atoms.lammps_type==group2[g]]))) == np.tile(atoms.mol_id[atoms.lammps_type==group2[g]],(len(atoms.mol_id[atoms.lammps_type==group1[g]]),1))
+                elif group2_types[g] == 'element':
+                    excl_mat = np.tile(atoms.mol_id[atoms.lammps_type==group1[g]][:,np.newaxis],(1,len(atoms.mol_id[atoms.element==group2[g]]))) == np.tile(atoms.mol_id[atoms.element==group2[g]],(len(atoms.mol_id[atoms.lammps_type==group1[g]]),1))
+            elif group1_types[g] == 'element':
+                if group2_types[g] == 'type':
+                    excl_mat = np.tile(atoms.mol_id[atoms.element==group1[g]][:,np.newaxis],(1,len(atoms.mol_id[atoms.lammps_type==group2[g]]))) == np.tile(atoms.mol_id[atoms.lammps_type==group2[g]],(len(atoms.mol_id[atoms.element==group1[g]]),1))
+                elif group2_types[g] == 'element':
+                    excl_mat = np.tile(atoms.mol_id[atoms.element==group1[g]][:,np.newaxis],(1,len(atoms.mol_id[atoms.element==group2[g]]))) == np.tile(atoms.mol_id[atoms.element==group2[g]],(len(atoms.mol_id[atoms.element==group1[g]]),1))
+
+            excl_mat_list.append(excl_mat)
+
+    elif args.bond_sep > 0:
         pathways_mat = adj_mat + np.eye(*adj_mat.shape)
         # Compute pathway matrix
         for sep in range(args.bond_sep-1):
@@ -179,17 +209,19 @@ def main(argv):
                 z2 = atomlist.z[atoms.element == group2[g]]
 
             # Compute distances between relevant groups
-            if group1_types[g] == group2_types[g] and group1[g] == group2[g]:  # Same list - can use pdist
+            if len(box) == 4:
+                dists = find_dist_triclinic(np.vstack((x1, y1, z1)).T, np.vstack((x2, y2, z2)).T, frac2cart, cart2frac)
+            elif group1_types[g] == group2_types[g] and group1[g] == group2[g]:  # Same list - can use pdist
                 dists = find_dist_same(np.vstack((x1, y1, z1)).T, box)
             else:
                 dists = find_dist_diff(np.vstack((x1, y1, z1)).T, np.vstack((x2, y2, z2)).T, box)
 
-            if args.bond_sep > 0:
+            if args.bond_sep != 0:
                 dists[excl_mat_list[g] > 0] = 0
 
             # Bin distances to rdf
             rdf_hist, rdf_bins = np.histogram(dists[(dists>0) & (dists<=r_max)], bins=bins)
-            pairs[g] += (dists.shape[0]*dists.shape[1]-min(dists.shape[0],dists.shape[1]))/2
+            pairs[g] += (dists.shape[0]*dists.shape[1]-np.count_nonzero(dists==0.0))/2
 
             frame_volume = np.prod(frame_box[:,1]-frame_box[:,0])
 
@@ -216,8 +248,6 @@ def find_dist_same(geo,box):
 
     for i in range(3):
         dist = scipy.spatial.distance.squareform(scipy.spatial.distance.pdist(geo[:,i:i+1], 'minkowski', p=1.0))
-        # Try broadcasting? https://stackoverflow.com/questions/21938189/scipy-cdist-or-pdist-on-arrays-of-complex-numbers
-            # dist = np.abs(geo[:,i:i+1]-geo[:,i:i+1].T) ?
         l, l2 = box[i][1] - box[i][0], (box[i][1] - box[i][0]) / 2.0
         while not (dist <= l2).all():
             dist -= l * (dist > l2)
@@ -245,6 +275,40 @@ def find_dist_diff(a, b, box):
         rs += dist**2
 
     rs = np.sqrt(rs)
+    return rs
+
+
+# Computes distances between particles in a list when box is non-cubic
+# Determines distance vector between each particle pair in fractional space, then transform all distance vectors to real space and find the lengths of these vectors
+# Might not work for all possible unit cells - I'm not sure if it is always true that the shortest route in fractional space is the shortest route in cartesian space
+def find_dist_triclinic(a, b, f2c, c2f):
+
+    # Transform data to fractional space
+    frac_geo_a = np.dot(a,c2f)
+    frac_geo_b = np.dot(b,c2f)
+
+    # Sign for each component matters in this case. It is not in general true that norm([0.1,0.1,0.1]*T) = norm([-0.1,0.1,0.1]*T) where T is the transformation matrix
+    # Fractional box is [(0,1), (0,1), (0,1)] - abs value of all distances should be less than 0.5
+    x_coord = np.tile(np.array(frac_geo_a[:, 0]), (1, frac_geo_b.shape[0])) - np.tile(np.array(frac_geo_b[:, 0]).T, (frac_geo_a.shape[0], 1))
+    x_coord[x_coord < -0.5] += 1.0
+    x_coord[x_coord > 0.5] -= 1.0
+    y_coord = np.tile(np.array(frac_geo_a[:, 1]), (1, frac_geo_b.shape[0])) - np.tile(np.array(frac_geo_b[:, 1]).T, (frac_geo_a.shape[0], 1))
+    y_coord[y_coord < -0.5] += 1.0
+    y_coord[y_coord > 0.5] -= 1.0
+    z_coord = np.tile(np.array(frac_geo_a[:, 2]), (1, frac_geo_b.shape[0])) - np.tile(np.array(frac_geo_b[:, 2]).T, (frac_geo_a.shape[0], 1))
+    z_coord[z_coord < -0.5] += 1.0
+    z_coord[z_coord > 0.5] -= 1.0
+
+    # reshape to flattened
+    x_coord = x_coord.ravel()
+    y_coord = y_coord.ravel()
+    z_coord = z_coord.ravel()
+
+    disp_vecs_frac = np.stack([x_coord,y_coord,z_coord], axis=1)
+    disp_vecs_cart = np.dot(disp_vecs_frac, f2c)
+
+    rs = np.reshape(scipy.linalg.norm(disp_vecs_cart, axis=1), (a.shape[0],b.shape[0]))
+
     return rs
 
 
