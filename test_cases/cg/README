@@ -1,0 +1,28 @@
+This is a README file for RDF job of example folder cg
+
+
+Input
+_______________
+
+Coarse-grained butanol system with 134 molecules and resolution-2 mapping
+
+Input files: cg.data, cg.lammpstrj
+
+Unique features: Nothing unusual about data file. Trajectory file has force columns, and has a lot of timesteps.
+
+
+
+How to
+____________
+
+
+
+
+Output
+__________
+
+
+
+
+Other notes
+_____________
