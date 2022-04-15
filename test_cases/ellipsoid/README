@@ -1,0 +1,6 @@
+
+Coarse-grained mixed conductor system with: polymer, ions, and water
+
+Data file can be used to test ellipsoids
+Trajectory file can be used to test ellipsoids 
+Also it is a large system (with 42843 atoms) and can be used test speed of parser and RDF scripts
