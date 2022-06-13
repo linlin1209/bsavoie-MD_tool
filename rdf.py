@@ -212,9 +212,9 @@ def main(argv):
             if len(box) == 4:
                 dists = find_dist_triclinic(np.vstack((x1, y1, z1)).T, np.vstack((x2, y2, z2)).T, frac2cart, cart2frac)
             elif group1_types[g] == group2_types[g] and group1[g] == group2[g]:  # Same list - can use pdist
-                dists = find_dist_same(np.vstack((x1, y1, z1)).T, box)
+                dists = find_dist_same(np.vstack((x1, y1, z1)).T, frame_box)
             else:
-                dists = find_dist_diff(np.vstack((x1, y1, z1)).T, np.vstack((x2, y2, z2)).T, box)
+                dists = find_dist_diff(np.vstack((x1, y1, z1)).T, np.vstack((x2, y2, z2)).T, frame_box)
 
             if args.bond_sep != 0:
                 dists[excl_mat_list[g] > 0] = 0

@@ -85,7 +85,7 @@ def main(argv):
         quit()
 
     # Parse ids of groups of interest from data file
-    atoms,bonds,angles,dihedrals,impropers,box,adj_list,adj_mat,extra_prop = parse_data_file(data_file, args.atom_style) # uncomment when impropers class is added
+    atoms,bonds,angles,dihedrals,impropers,box,adj_mat,extra_prop = parse_data_file(data_file, args.atom_style) # uncomment when impropers class is added
     #atoms, bonds, angles, dihedrals, box, extra_prop = parse_data_file(data_file, args.atom_style)
 
     # Build adjacency matrix and list
